@@ -19,6 +19,9 @@
  */
 
 var SHEET_NAME = "Leads";
+// E-mail que receberá notificações de novos leads.
+// Troque pelo seu e-mail (ex.: "thiago4all@gmail.com").
+var NOTIFY_EMAIL = "thisanti@hotmail.com";
 
 function doPost(e) {
   try {
@@ -42,6 +45,13 @@ function doPost(e) {
     ];
 
     sheet.appendRow(row);
+
+    try {
+      sendNotificationEmail(params, timestamp);
+    } catch (notifyErr) {
+      // Não quebra o fluxo se o e-mail falhar.
+      console.error("Erro ao enviar e-mail de notificação:", notifyErr);
+    }
 
     return createThankYouPage();
   } catch (err) {
@@ -77,9 +87,44 @@ function getOrCreateSheet() {
   return sheet;
 }
 
+function sendNotificationEmail(params, timestamp) {
+  if (!NOTIFY_EMAIL || NOTIFY_EMAIL === "thisanti@hotmail.com") {
+    // E-mail de notificação não configurado.
+    return;
+  }
+
+  var subject = "Novo lead – Black Cars Service";
+
+  var lines = [];
+  lines.push("Novo lead recebido em " + timestamp.toLocaleString() + ":");
+  lines.push("");
+  lines.push("Nome: " + (params.name || ""));
+  lines.push("Empresa: " + (params.company || ""));
+  lines.push("E-mail: " + (params.email || ""));
+  lines.push("Telefone: " + (params.phone || ""));
+  lines.push("Origem: " + (params.origin || ""));
+  lines.push("Destino: " + (params.destination || ""));
+  lines.push("Data da viagem: " + (params.date || ""));
+  lines.push("Horário desejado: " + (params.time || ""));
+  lines.push("Passageiros: " + (params.passengers || ""));
+  lines.push("Tipo de serviço: " + (params.serviceType || ""));
+  lines.push("");
+  lines.push("Observações:");
+  lines.push(params.notes || "-");
+
+  var body = lines.join("\n");
+
+  MailApp.sendEmail({
+    to: NOTIFY_EMAIL,
+    subject: subject,
+    body: body,
+    replyTo: params.email || undefined
+  });
+}
+
 function createThankYouPage() {
   // URL base da sua landing (ex.: https://blackcarsservice.netlify.app)
-  var landingUrl = "https://seusite.com";
+  var landingUrl = "http://127.0.0.1:5500/index.html";
   // Acrescenta um marcador opcional na query string para você exibir uma mensagem na landing, se quiser.
   var redirectUrl = landingUrl + "?sent=1";
 
@@ -94,7 +139,7 @@ function createThankYouPage() {
 }
 
 function createErrorPage(message) {
-  var landingUrl = "https://seusite.com";
+  var landingUrl = "http://127.0.0.1:5500/index.html";
   var html = '<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Erro – Black Cars Service</title></head><body style="margin:0;min-height:100vh;background:#020617;color:#f8fafc;font-family:system-ui,-apple-system,sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:1.5rem;box-sizing:border-box;">'
     + '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:2rem;">'
     + '<span style="display:inline-flex;height:2.5rem;width:2.5rem;align-items:center;justify-content:center;border-radius:9999px;background:#f1f5f9;color:#020617;font-size:0.875rem;font-weight:600;">BC</span>'
