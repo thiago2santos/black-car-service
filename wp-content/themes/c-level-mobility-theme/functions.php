@@ -57,6 +57,12 @@ if ( ! function_exists( 'clm_theme_scripts' ) ) {
 			true
 		);
 
+		wp_localize_script(
+			'c-level-mobility-lang',
+			'clmTheme',
+			array( 'localesUrl' => $theme_uri . '/locales/' )
+		);
+
 		wp_enqueue_script(
 			'c-level-mobility-form-phone',
 			$theme_uri . '/assets/js/form-phone.js',

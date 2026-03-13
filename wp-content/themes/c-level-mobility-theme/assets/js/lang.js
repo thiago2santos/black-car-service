@@ -31,7 +31,8 @@
       return;
     }
 
-    var path = "../../locales/" + lang + ".json";
+    var baseUrl = (typeof clmTheme !== 'undefined' && clmTheme.localesUrl) ? clmTheme.localesUrl : '';
+    var path = baseUrl + lang + ".json";
 
     fetch(path, { cache: "no-cache" })
       .then(function (response) {
