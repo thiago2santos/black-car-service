@@ -1,0 +1,40 @@
+# Node / Tailwind
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Logs e temporários
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Docker
+docker-data/
+*.pid
+
+# WordPress
+# Core (se existir dentro do repo)
+wordpress/
+
+# Uploads (não versionar arquivos enviados)
+wp-content/uploads/
+
+# Plugins baixados via painel (opcional: ajuste se usar plugins em código)
+wp-content/plugins/
+
+# Cache e arquivos gerados por plugins comuns
+wp-content/cache/
+wp-content/upgrade/
+wp-content/wflogs/
+wp-content/debug.log
+
+# Arquivos de ambiente (não subir segredos)
+.env
+.env.local
+.env.*.local

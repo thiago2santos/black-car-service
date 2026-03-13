@@ -38,13 +38,55 @@ if ( ! function_exists( 'clm_theme_scripts' ) ) {
 	 */
 	function clm_theme_scripts() {
 		$theme_uri = get_template_directory_uri();
+		$version   = defined( 'CLM_THEME_VERSION' ) ? CLM_THEME_VERSION : null;
 
 		// Tailwind CSS compilado do tema.
 		wp_enqueue_style(
 			'c-level-mobility-style',
 			$theme_uri . '/assets/build/style.css',
 			array(),
-			defined( 'CLM_THEME_VERSION' ) ? CLM_THEME_VERSION : null
+			$version
+		);
+
+		// Scripts de comportamento da landing.
+		wp_enqueue_script(
+			'c-level-mobility-lang',
+			$theme_uri . '/assets/js/lang.js',
+			array(),
+			$version,
+			true
+		);
+
+		wp_enqueue_script(
+			'c-level-mobility-form-phone',
+			$theme_uri . '/assets/js/form-phone.js',
+			array(),
+			$version,
+			true
+		);
+
+		wp_enqueue_script(
+			'c-level-mobility-destination-autocomplete',
+			$theme_uri . '/assets/js/destination-autocomplete.js',
+			array(),
+			$version,
+			true
+		);
+
+		wp_enqueue_script(
+			'c-level-mobility-form-validation',
+			$theme_uri . '/assets/js/form-validation.js',
+			array(),
+			$version,
+			true
+		);
+
+		wp_enqueue_script(
+			'c-level-mobility-feedback-banner',
+			$theme_uri . '/assets/js/feedback-banner.js',
+			array(),
+			$version,
+			true
 		);
 	}
 }
