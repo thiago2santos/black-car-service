@@ -13,6 +13,8 @@ if ( ! function_exists( 'clm_theme_setup' ) ) {
 	 * Theme setup.
 	 */
 	function clm_theme_setup() {
+		$theme = wp_get_theme();
+
 		// Enable support for document title tag.
 		add_theme_support( 'title-tag' );
 
@@ -21,6 +23,11 @@ if ( ! function_exists( 'clm_theme_setup' ) ) {
 			'c-level-mobility-theme',
 			get_template_directory() . '/languages'
 		);
+
+		// Make theme version available for cache busting.
+		if ( ! defined( 'CLM_THEME_VERSION' ) ) {
+			define( 'CLM_THEME_VERSION', $theme->get( 'Version' ) ?: '0.1.0' );
+		}
 	}
 }
 add_action( 'after_setup_theme', 'clm_theme_setup' );
@@ -28,11 +35,17 @@ add_action( 'after_setup_theme', 'clm_theme_setup' );
 if ( ! function_exists( 'clm_theme_scripts' ) ) {
 	/**
 	 * Enqueue theme styles and scripts.
-	 *
-	 * CSS/JS específicos serão registrados nas próximas etapas da migração.
 	 */
 	function clm_theme_scripts() {
-		// Placeholder para enfileirar CSS/JS do tema nas próximas etapas.
+		$theme_uri = get_template_directory_uri();
+
+		// Tailwind CSS compilado do tema.
+		wp_enqueue_style(
+			'c-level-mobility-style',
+			$theme_uri . '/assets/build/style.css',
+			array(),
+			defined( 'CLM_THEME_VERSION' ) ? CLM_THEME_VERSION : null
+		);
 	}
 }
 add_action( 'wp_enqueue_scripts', 'clm_theme_scripts' );
