@@ -93,7 +93,7 @@ function sendNotificationEmail(params, timestamp) {
     return;
   }
 
-  var subject = "Novo lead – Black Cars Service";
+  var subject = "Novo lead – C-Level Mobility";
 
   var lines = [];
   lines.push("Novo lead recebido em " + timestamp.toLocaleString() + ":");
@@ -140,10 +140,10 @@ function createThankYouPage() {
 
 function createErrorPage(message) {
   var landingUrl = "http://127.0.0.1:5500/index.html";
-  var html = '<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Erro – Black Cars Service</title></head><body style="margin:0;min-height:100vh;background:#020617;color:#f8fafc;font-family:system-ui,-apple-system,sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:1.5rem;box-sizing:border-box;">'
+  var html = '<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Erro – C-Level Mobility</title></head><body style="margin:0;min-height:100vh;background:#020617;color:#f8fafc;font-family:system-ui,-apple-system,sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:1.5rem;box-sizing:border-box;">'
     + '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:2rem;">'
     + '<span style="display:inline-flex;height:2.5rem;width:2.5rem;align-items:center;justify-content:center;border-radius:9999px;background:#f1f5f9;color:#020617;font-size:0.875rem;font-weight:600;">BC</span>'
-    + '<div><span style="display:block;font-size:0.875rem;font-weight:600;">Black Cars Service</span><span style="display:block;font-size:0.75rem;color:#94a3b8;">Transporte executivo em Jundiaí</span></div>'
+    + '<div><span style="display:block;font-size:0.875rem;font-weight:600;">C-Level Mobility</span><span style="display:block;font-size:0.75rem;color:#94a3b8;">Transporte executivo em Jundiaí</span></div>'
     + '</div>'
     + '<div style="max-width:28rem;width:100%;padding:2rem;border:1px solid #1e293b;border-radius:1rem;background:rgba(15,23,42,0.6);text-align:center;">'
     + '<h1 style="margin:0 0 0.75rem;font-size:1.25rem;font-weight:600;">Erro ao enviar</h1>'

@@ -1,4 +1,4 @@
-### Roteiro de estudo e configuração AWS – Black Cars Service
+### Roteiro de estudo e configuração AWS – C-Level Mobility
 
 Este roteiro foca em **hospedar a landing** e preparar a **camada de API** usando o mínimo de serviços AWS possível para validar o MVP.
 

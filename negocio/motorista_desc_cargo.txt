@@ -1,0 +1,15 @@
+Descrição do trabalho
+Funções:
+
+Ser pontual
+CNH B ativa com EAR;
+Conduzir veículos de passeio automático
+Transportar pessoas e objetos
+Manter o veículo limpo e abastecido
+Realizar pequenas operações de emergência
+Seguir as leis de trânsito
+Seguir a melhor rota, de acordo com tempo e segurança
+Zelar pela segurança e conforto dos passageiros
+Ser discreto e cordial Requisitos:
+Experiência como motorista particular, e
+Saber conduzir veículo automático.

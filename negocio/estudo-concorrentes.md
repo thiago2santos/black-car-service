@@ -5,6 +5,13 @@ Este documento registra um estudo inicial de concorrentes relevantes para o serv
 Concorrentes analisados:
 
 - [Carsblack / Black Cars – São Paulo](https://www.carsblack.com.br/en)
+Razão SocialBlack Cars Rental Ltda
+Nome FantasiaCars Black
+CNPJ 26.796.509/0001-86
+
+A empresa com a razão social Black Cars Rental Ltda, tem o nome fantasia Cars Black, opera com o CNPJ 26.796.509/0001-86 (26796509000186) e foi fundada em 04/01/2017. O endereço de sua sede está localizada na Estrada das Taipas, 623 - Jardim Rincao, Sao Paulo - SP, 02.991-000. Sua atividade principal é de Serviço de transporte de passageiros - locação de automóveis com motorista, de acordo com o código CNAE H-4923-0/02.Black Cars é uma empresa de transporte executivo atuando em São Paulo desde 2014. Seu público-alvo abrange empresas e indivíduos, focando no mercado de transporte executivo na cidade de São Paulo e regiões metropolitanas. A empresa opera com foco na qualidade, conforto e segurança dos seus serviços.A empresa oferece transporte executivo em veículos de última geração, com motoristas bilíngues, bem treinados e uniformizados. São oferecidos serviços de receptivo em aeroportos, rodoviárias, hotéis e outros locais. A empresa emite notas fiscais para empresas com mais de cinco anos de CNPJ ativo e aceita pagamentos por cartão, depósito e transferência bancária para clientes individuais. O serviço mínimo prestado é de cinco horas, com agendamento prévio obrigatório para viagens ao amanhecer. A empresa possui registro de marca no INPI.
+
+
 - [Blacklane – serviço global de chauffeur](https://www.blacklane.com/en/)
 
 ---
@@ -166,3 +173,62 @@ Você já identificou que sua landing page precisa ser **multilíngue (pt-BR, en
   - Um rascunho de layout (wireframe) para a página inicial, já considerando o seletor de idiomas.
 
 Quando quiser, posso ajudar a montar esse `landing-content.md` com textos enxutos em **pt-BR, inglês e espanhol**, seguindo os aprendizados deste estudo de concorrentes.
+
+
+Encontrei mais um concorrente
+https://www.blackcars.com.br/
+
+
+https://chmtransportes.com.br/servicos/
+
+https://www.urbenturismo.com.br/servicos
+
+https://www.instagram.com/hb11sp/
+
+https://linnam.com.br/
+
+https://www.lecartransporte.com.br/
+
+https://www.transobelisco.com.br/transportes-executivos/empresa-transfer/empresa-transfer-executivo-para-convencoes/empresas-de-transfer-para-transporte-executivo-jundiai
+
+
+H.E. Transportes Executivos
+Endereço: Rua Moreira Cesar, 572 – Vila Arens
+Telefone: (11) 4816-7824 / 99911-8996
+E-mail: contato@hetransporte.com.br
+Site: www.hetransporte.com.br
+Facebook: He Transportes Executivos
+
+
+. Gdc Executivos
+Táxis e traslados
+Aberto agora
+
+https://www.elegancetransporte.com/
+
+https://chmtransportes.com.br/cidades-atendidas-jundiai-taxi-executivo-transfer-traslado-translado-transporte-executivo-van-exexutiva-receptivo-aeroporto/
+
+https://www.wleaoexecutivo.com.br/transfer-executivo-em-jundiai
+
+https://transfoxexecutivo.com.br/
+
+https://www.transferexecutivosp.com.br/transporte-executivo-em-jundiai
+
+https://www.uniaosorocaba.com.br/transfer-executivo-em-jundiai/
+
+Concorrentes locais
+Grupo União de Motoristas, 
+
+Gigavans
+https://gigavans.com.br/
+
+Transobelisco
+https://www.transobelisco.com.br/transportes-executivos/
+
+W Leão Executivo
+https://www.wleaoexecutivo.com.br/transporte-corporativo-em-jundiai
+
+Executivo SP
+https://www.transferexecutivosp.com.br/transporte-vip-em-jundiai
+
+https://transporteexecutivo.com.br/

@@ -1,5 +1,5 @@
 /**
- * i18n – troca de idioma (pt-BR / en / es) na landing Black Cars Service.
+ * i18n – troca de idioma (pt-BR / en / es) na landing C-Level Mobility.
  * Depende de elementos com data-i18n e botões com data-lang.
  */
 (function () {
@@ -7,7 +7,7 @@
 
   const translations = {
     pt: {
-      "brand.name": "Black Cars Service",
+      "brand.name": "C-Level Mobility",
       "brand.tagline": "Transporte executivo em Jundiaí",
       "nav.services": "Serviços",
       "nav.fleet": "Frota",
@@ -15,7 +15,7 @@
       "nav.contact": "Contato",
       "hero.kicker": "Transporte executivo • Jundiaí • Campinas • São Paulo",
       "hero.title":
-        "Black Cars Service: transporte executivo em Jundiaí com foco em transfers para aeroportos",
+        "C-Level Mobility: transporte executivo em Jundiaí com foco em transfers para aeroportos",
       "hero.subtitle":
         "Serviço sob medida para indústrias, hotéis e executivos de Jundiaí e região, em viagens de até 3 passageiros para aeroportos e eventos em Campinas e São Paulo.",
       "hero.ctaPrimary": "Solicitar cotação",
@@ -117,12 +117,12 @@
         "Após sua confirmação, o horário é reservado e os detalhes são confirmados antes do embarque.",
       "contact.sidebarNote":
         "Resposta rápida e comunicação objetiva por WhatsApp ou e-mail.",
-      "footer.copy": "© Black Cars Service. Transporte executivo em Jundiaí e região.",
+      "footer.copy": "© C-Level Mobility. Transporte executivo em Jundiaí e região.",
       "footer.languages":
         "Conteúdo disponível em português, inglês e espanhol básico.",
     },
     en: {
-      "brand.name": "Black Cars Service",
+      "brand.name": "C-Level Mobility",
       "brand.tagline": "Executive transport in Jundiaí",
       "nav.services": "Services",
       "nav.fleet": "Fleet",
@@ -130,7 +130,7 @@
       "nav.contact": "Contact",
       "hero.kicker": "Executive transport • Jundiaí • Campinas • São Paulo",
       "hero.title":
-        "Black Cars Service: executive transport from Jundiaí with a focus on airport transfers",
+        "C-Level Mobility: executive transport from Jundiaí with a focus on airport transfers",
       "hero.subtitle":
         "Tailored service for industries, hotels and executives in Jundiaí and surroundings, on trips of up to 3 passengers to airports and events in Campinas and São Paulo.",
       "hero.ctaPrimary": "Request a quote",
@@ -243,12 +243,12 @@
       "contact.sidebarNote":
         "Quick response and clear communication by WhatsApp or email.",
       "footer.copy":
-        "© Black Cars Service. Executive transport in Jundiaí and region.",
+        "© C-Level Mobility. Executive transport in Jundiaí and region.",
       "footer.languages":
         "Content available in Portuguese, English and basic Spanish.",
     },
     es: {
-      "brand.name": "Black Cars Service",
+      "brand.name": "C-Level Mobility",
       "brand.tagline": "Transporte ejecutivo en Jundiaí",
       "nav.services": "Servicios",
       "nav.fleet": "Flota",
@@ -256,7 +256,7 @@
       "nav.contact": "Contacto",
       "hero.kicker": "Transporte ejecutivo • Jundiaí • Campinas • São Paulo",
       "hero.title":
-        "Black Cars Service: transporte ejecutivo desde Jundiaí con foco en traslados a aeropuertos",
+        "C-Level Mobility: transporte ejecutivo desde Jundiaí con foco en traslados a aeropuertos",
       "hero.subtitle":
         "Servicio a medida para industrias, hoteles y ejecutivos de Jundiaí y región, en viajes de hasta 3 pasajeros hacia aeropuertos y eventos en Campinas y São Paulo.",
       "hero.ctaPrimary": "Solicitar cotización",
@@ -374,7 +374,7 @@
       "contact.sidebarNote":
         "Respuesta rápida y comunicación objetiva por WhatsApp o correo electrónico.",
       "footer.copy":
-        "© Black Cars Service. Transporte ejecutivo en Jundiaí y región.",
+        "© C-Level Mobility. Transporte ejecutivo en Jundiaí y región.",
       "footer.languages":
         "Contenido disponible en portugués, inglés y español básico.",
     },

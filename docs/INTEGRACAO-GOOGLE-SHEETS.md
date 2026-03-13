@@ -8,7 +8,7 @@ O formulário de cotação da landing pode enviar os dados para uma planilha do 
 
 1. Acesse [Google Drive](https://drive.google.com) e entre com sua conta Google.
 2. **Arquivo > Novo > Google Planilhas** (ou acesse [sheets.google.com](https://sheets.google.com) e crie uma nova planilha).
-3. Dê um nome à planilha (ex.: "**Black Cars Service – Leads**").
+3. Dê um nome à planilha (ex.: "**C-Level Mobility – Leads**").
 
 ### 2. Abrir o Apps Script
 

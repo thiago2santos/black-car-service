@@ -1,0 +1,45 @@
+pros
+    mais segurança financeira
+        margem potencialmente maior por corrida (sem comissão da plataforma)
+        possibilidade de contratos recorrentes com empresas (previsibilidade de receita)
+
+    depender menos das plataformas
+        menos vulnerável a mudanças de algoritmo, tarifas e bloqueios
+        maior controle sobre preço, nível de serviço e relacionamento com o cliente
+
+    melhor uso do recurso investido no carro
+        carro rodando em horários nobres com clientes corporativos
+        possibilidade de frota padronizada que facilita manutenção e seguro
+
+    construção de marca própria
+        deixar de ser só "mais um carro de app"
+        facilitar venda de outros serviços (traslados, eventos, city tour executivo)
+
+    maior controle de qualidade do serviço
+        definir padrão de vestimenta, limpeza do carro e atendimento
+        criar diferenciais claros (água, wi-fi, tomadas, silêncio, etc.)
+
+contras
+    trabalho com a administração
+        gestão de agenda, faturamento, notas fiscais e cobrança
+        controle de custos (combustível, manutenção, seguro, depreciação)
+
+    funcionários e pessoas
+        recrutar, treinar e reter bons motoristas
+        risco de mau atendimento afetar a marca e necessidade de supervisão
+
+    risco jurídico
+        questões trabalhistas (vínculo ou não, jornada, benefícios)
+        responsabilidade civil em acidentes e contratos mal feitos com empresas
+
+    necessidade de capital de giro
+        para aguentar períodos de baixa demanda
+        para fazer manutenção preventiva sem parar o negócio
+
+    risco de demanda menor que o esperado
+        demora para encher a carteira de clientes corporativos
+        manter dependência parcial dos aplicativos por um tempo
+
+    marketing e vendas se tornam críticos
+        você precisa ser encontrado (site, google, redes sociais, indicação)
+        exige tempo ou investimento em marketing e prospecção ativa em empresas
