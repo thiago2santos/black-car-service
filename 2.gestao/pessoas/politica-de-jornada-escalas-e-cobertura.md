@@ -15,6 +15,21 @@ Estabelecer regras para organizacao de jornada, escalas, pausas, folgas e cobert
 
 Esta politica se aplica a todos os motoristas e lideres que organizam a operacao.
 
+## 3.1. Premissas de aplicabilidade
+
+Esta politica adota como referencia conservadora:
+
+- CLT
+- Lei 13.103/2015
+- CTB
+- instrumentos coletivos validos, quando existirem
+
+Importante:
+
+- a empresa nao presume automaticamente que todo o regime especial do motorista profissional se aplica de forma integral ao transporte executivo
+- quando houver duvida de enquadramento, prevalece a leitura oficial da lei com validacao juridica e trabalhista
+- pontos como `12x36`, horas extras acima de 2 horas, fracionamentos especiais, classificacao de tempo de espera e parte do regime de transporte de passageiros exigem apoio especializado antes de virarem regra definitiva
+
 ## 4. Regras gerais de jornada
 
 ### Base legal de referencia
@@ -34,6 +49,16 @@ Adotar como regra:
 - pausas registradas
 - descanso diario e semanal preservados
 - horas extras apenas quando justificadas e controladas
+
+### Referencia operacional minima
+
+Como referencia conservadora de desenho operacional, a empresa deve:
+
+- planejar jornada ordinaria de 8 horas
+- tratar prorrogacao como excepcional e controlada
+- exigir base juridica ou coletiva valida antes de estruturar rotina acima de 2 horas extras por dia
+- preservar intervalo de refeicao, descanso diario e descanso semanal de forma rastreavel
+- evitar qualquer desenho que pressione o motorista a dirigir alem da condicao segura
 
 ## 5. Escalas
 
@@ -60,6 +85,9 @@ Cada motorista deve registrar:
 - pausas e refeicao
 - fim da jornada
 - eventos extraordinarios relevantes
+- alteracoes materiais de roteiro ou agenda
+- impossibilidade segura de continuar dirigindo
+- periodos relevantes de espera, disponibilidade ou parada que precisem de analise posterior
 
 O sistema pode ser:
 
@@ -71,6 +99,17 @@ Nao e permitido:
 
 - combinar jornada informal fora do sistema
 - suprimir registro para ocultar excesso
+- classificar por conta propria um periodo como `fora da jornada` sem o criterio interno aplicavel
+
+### Regra minima de registro
+
+Na duvida sobre como tratar um periodo, a orientacao e:
+
+1. registrar o fato
+2. comunicar Operacao
+3. submeter a classificacao a RH e lideranca
+
+A empresa nao deve depender de memoria, combinados verbais ou ajuste posterior sem rastro.
 
 ## 7. Pausas e descanso
 
@@ -80,6 +119,18 @@ O motorista deve observar:
 - pausas de descanso na conducao, quando aplicaveis
 - descanso diario
 - descanso semanal
+
+Como referencia conservadora, a empresa nao deve estruturar a operacao de forma a desrespeitar:
+
+- intervalo minimo de refeicao
+- descanso total diario em cada janela de 24 horas
+- pausas de conducao e descanso previstas no CTB quando o contexto operacional exigir essa leitura
+
+Pontos que exigem validacao juridica especifica:
+
+- aplicabilidade literal das regras especiais de transporte coletivo de passageiros ao transporte executivo
+- classificacao de espera, disponibilidade e tempo a disposicao
+- fracionamentos especiais e regimes excepcionais
 
 Se a agenda pressionar a operacao alem do limite seguro, a prioridade e:
 
@@ -91,6 +142,7 @@ Se a agenda pressionar a operacao alem do limite seguro, a prioridade e:
 Nunca:
 
 - empurrar o problema para o motorista sozinho
+- pressionar o motorista a seguir atendimento ou viagem sem condicao segura e documentada
 
 ## 8. Horas extras
 
@@ -100,6 +152,12 @@ Horas extras devem ser:
 - previamente autorizadas sempre que possivel
 - registradas
 - analisadas mensalmente
+
+Nao estruturar:
+
+- cliente vendido com dependencia recorrente de extensao de jornada
+- cobertura baseada em disponibilidade irrestrita do motorista
+- horas extras acima do limite ordinario sem base juridica ou coletiva valida
 
 Sinais de alerta:
 
@@ -132,6 +190,18 @@ Ao perceber risco de ruptura, o motorista ou a Operacao deve:
 4. registrar decisao e horario
 
 Em clientes sensiveis, deve haver comunicacao externa coordenada pela empresa, nao pelo motorista de forma isolada.
+
+## 10.1. Escalonamento obrigatorio por seguranca e legalidade
+
+Se cliente, agenda ou lideranca pressionarem a operacao alem do limite seguro, o fluxo minimo e:
+
+1. registrar o pedido ou a ocorrencia
+2. avaliar impacto em jornada, descanso e seguranca
+3. acionar cobertura ou redistribuicao
+4. escalar para decisao de lideranca quando houver risco de ilegalidade ou fadiga
+5. renegociar escopo com o cliente quando necessario
+
+O motorista nao deve ser deixado sozinho para absorver a decisao ou o risco.
 
 ## 11. Fadiga e aptidao para dirigir
 

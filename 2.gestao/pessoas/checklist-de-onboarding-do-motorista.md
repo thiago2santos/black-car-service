@@ -26,6 +26,7 @@ O onboarding deve ocorrer em tres fases:
 - [ ] revisar descricao de cargo
 - [ ] revisar codigo de conduta
 - [ ] revisar politica de jornada, pausas, escalas e cobertura
+- [ ] explicar premissas de aplicabilidade da CLT, Lei 13.103/2015 e CTB usadas pela empresa
 - [ ] revisar politica disciplinar
 - [ ] revisar politica de privacidade e confidencialidade
 - [ ] revisar rotina de ocorrencias e comunicacoes obrigatorias
@@ -35,6 +36,7 @@ O onboarding deve ocorrer em tres fases:
 - [ ] orientar checks basicos do veiculo
 - [ ] orientar postura em caso de pane, acidente e emergencia
 - [ ] orientar fadiga, indisposicao e comunicacao de incapacidade para dirigir
+- [ ] orientar que o motorista nao deve seguir atendimento apenas para cumprir agenda se nao houver condicao segura
 - [ ] orientar uso de primeiros socorros e canal de emergencia da empresa
 
 ### Atendimento e imagem
@@ -51,6 +53,8 @@ O onboarding deve ocorrer em tres fases:
 - [ ] acompanhar os primeiros atendimentos ou simulacoes
 - [ ] validar uso de navegacao e canais de comunicacao
 - [ ] validar preenchimento de registros operacionais
+- [ ] validar registro fiel de inicio, pausas, refeicao, fim e intercorrencias de jornada
+- [ ] validar escalonamento de espera, atraso, pressao de cliente e fadiga
 - [ ] revisar pontualidade e aderencia a processo
 
 ### Feedback inicial
@@ -81,6 +85,8 @@ Todo motorista deve ser treinado, no minimo, em:
 - proposta de valor da empresa
 - seguranca viaria e direcao defensiva
 - rotina operacional e escalas
+- registro de jornada, pausas e intercorrencias
+- regra de escalonamento quando houver conflito entre agenda e seguranca
 - comunicacao com operacao
 - sigilo, LGPD e cuidado com dados de passageiros
 - postura profissional e atendimento executivo

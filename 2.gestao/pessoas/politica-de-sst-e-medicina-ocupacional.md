@@ -19,6 +19,20 @@ Esta politica se aplica a:
 - equipe administrativa, com adaptacoes conforme exposicao
 - parceiros somente quando houver interface operacional que exija regra compartilhada
 
+## 3.1. Premissas de aplicabilidade
+
+Esta politica usa como referencia conservadora:
+
+- CLT
+- Lei 13.103/2015
+- CTB
+- NRs aplicaveis
+
+Importante:
+
+- o enquadramento final de parte do regime do motorista profissional no transporte executivo pode exigir validacao juridica e coletiva
+- a empresa nao deve improvisar interpretacoes sobre jornada, espera, exames ou programa de alcool e drogas sem apoio tecnico
+
 ## 4. Pilar 1 - gerenciamento de riscos ocupacionais
 
 A empresa deve manter PGR ou rotina equivalente tecnicamente suportada conforme enquadramento legal, contemplando ao menos:
@@ -47,6 +61,12 @@ Deve haver suporte de PCMSO e clinica ocupacional para:
 - mudanca de risco, quando aplicavel
 - exame demissional, quando devido
 
+Quando a funcao, a categoria de CNH ou a base legal exigirem, o fluxo de saude ocupacional deve tambem contemplar:
+
+- verificacao documentada da exigencia de exame toxicologico
+- controle de vencimentos e gatilhos aplicaveis
+- confidencialidade e cadeia de decisao sobre resultados e contraprova
+
 ## 6. Pilar 3 - aptidao para dirigir
 
 Nenhum motorista deve operar se:
@@ -55,6 +75,13 @@ Nenhum motorista deve operar se:
 - estiver em fadiga relevante
 - relatar condicao de saude incompatível com direcao segura
 - apresentar sinal objetivo de incapacidade para dirigir
+- estiver sob efeito aparente de alcool, drogas ou medicacao incompatível com direcao segura
+
+Em caso de duvida relevante sobre aptidao para dirigir, a prioridade e:
+
+1. retirar da operacao
+2. registrar a ocorrencia
+3. encaminhar para avaliacao interna e ocupacional conforme o caso
 
 ## 7. Pilar 4 - resposta a incidentes
 
@@ -89,6 +116,7 @@ A empresa deve definir:
 - procedimento em pane e acidente
 - fadiga e aptidao para dirigir
 - comunicacao de emergencia
+- registro e escalonamento de riscos de jornada e descanso
 
 ## 11. Indicadores minimos
 

@@ -4,6 +4,20 @@
 
 Este manual orienta o motorista da C-Level Mobility sobre como atuar no dia a dia da operacao com seguranca, discricao, pontualidade e padrao executivo.
 
+## 1.1. Premissa de seguranca e legalidade
+
+A empresa opera com referencia conservadora a:
+
+- CLT
+- Lei 13.103/2015
+- CTB
+- regras internas da empresa
+
+Importante:
+
+- em caso de duvida sobre jornada, descanso, espera ou continuidade do atendimento, o motorista deve registrar e escalar, e nao decidir sozinho sem rastro
+- quando houver conflito entre agenda, pressao do cliente e seguranca, prevalece a seguranca
+
 ## 2. O que o cliente espera
 
 O cliente nao compra apenas deslocamento. Ele compra:
@@ -90,6 +104,10 @@ O motorista deve:
 - respeitar pausas, refeicao e descanso
 - nao ocultar excesso de jornada
 - informar quando nao houver condicao segura de seguir dirigindo
+- registrar inicio, pausas, refeicao, fim da jornada e intercorrencias relevantes
+- registrar esperas ou alteracoes materiais de agenda quando isso afetar a operacao
+- escalar qualquer pressao para seguir atendimento sem condicao segura ou sem descanso compativel
+- nao tratar por conta propria um periodo como `nao contado` sem orientacao da empresa
 
 ## 10. Tratamento ao cliente
 
@@ -120,6 +138,13 @@ Padrao esperado:
 
 - negar com educacao quando houver ilegalidade ou risco
 - comunicar a operacao
+
+### Pedido para seguir com fadiga, atraso ou jornada critica
+
+- nao continuar dirigindo apenas para cumprir expectativa do cliente
+- registrar a ocorrencia
+- comunicar a operacao imediatamente
+- aguardar redirecionamento, cobertura ou nova instrucao formal da empresa
 
 ## 12. Consequencias por descumprimento
 

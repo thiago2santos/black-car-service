@@ -22,6 +22,8 @@ O motorista so pode iniciar atendimento externo apos todos os itens criticos aba
 
 - [ ] CNH valida conferida
 - [ ] EAR conferido, quando aplicavel
+- [ ] categoria minima de CNH exigida para a funcao documentada
+- [ ] decisao sobre exigencia de EAR documentada com fundamento
 - [ ] curriculo e historico profissional arquivados
 - [ ] referencias profissionais checadas e registradas
 - [ ] certidoes ou validacoes complementares efetuadas conforme politica interna e base legal
@@ -32,6 +34,8 @@ O motorista so pode iniciar atendimento externo apos todos os itens criticos aba
 - [ ] ASO admissional `apto` recebido
 - [ ] exames complementares recebidos, se exigidos pelo PCMSO ou pela funcao
 - [ ] exame toxicologico recebido, quando aplicavel
+- [ ] decisao sobre exigencia de toxicológico documentada com fundamento
+- [ ] necessidade de programa de alcool e drogas avaliada com apoio ocupacional e juridico, quando cabivel
 
 ### Condicoes da contratacao
 
@@ -50,6 +54,7 @@ O motorista so pode iniciar atendimento externo apos todos os itens criticos aba
 - [ ] politica disciplinar entregue
 - [ ] politica de privacidade e confidencialidade entregue
 - [ ] manual do motorista entregue
+- [ ] criterio interno de jornada, registro, fadiga e escalonamento explicado
 - [ ] termos de uso e recebimento de ativos assinados, se houver
 - [ ] termo de ciencia de treinamento inicial assinado ou registrado
 
@@ -107,3 +112,4 @@ Nao liberar para operacao sozinho se houver:
 - comprovantes de entrega de politicas
 - comprovante de cadastro
 - registro da data de liberacao operacional
+- decisao documentada sobre CNH, EAR e toxicologico aplicaveis a funcao
