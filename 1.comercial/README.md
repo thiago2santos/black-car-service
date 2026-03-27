@@ -35,7 +35,7 @@ Temas esperados:
 - briefs e pautas de canais
 - materiais de proposta
 - contratos e modelos comerciais
-- automacao comercial
+- estrategia, brief e objetivo das automacoes comerciais
 - rotina de prospeccao e follow-up
 
 ## Relacao com `4.canais/`
@@ -55,6 +55,11 @@ Ja `4.canais/` implementa o canal em si:
 - assets
 - integracoes
 - automacoes e estrutura tecnica
+
+Regra especifica para automacoes:
+
+- `1.comercial/` define a necessidade, o objetivo, o brief e o criterio de sucesso
+- `4.canais/automacoes/` implementa o fluxo, a integracao e a execucao tecnica
 
 ## Responsabilidades do responsavel pela area
 

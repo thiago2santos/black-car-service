@@ -32,14 +32,6 @@ wordpress/
 4.canais/site-institucional/wordpress/wp-content/wflogs/
 4.canais/site-institucional/wordpress/wp-content/debug.log
 
-# Caminho legado ainda presente no filesystem
-wp-content/uploads/
-wp-content/plugins/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/wflogs/
-wp-content/debug.log
-
 # Arquivos de ambiente (não subir segredos)
 .env
 .env.local
