@@ -3,7 +3,7 @@
 ### 1. Objetivo
 
 - **Criar uma visão orçamentária anual básica** para o negócio de transporte executivo (C-Level Mobility), usando:
-  - As premissas de mercado e operação descritas em `ANALISE-MERCADO-TRANSPORTE-CORPORATIVO.md`.
+  - As premissas de mercado e operação descritas em `analise-mercado-transporte-corporativo.md`.
   - A **sazonalidade de demanda** inferida a partir da movimentação de passageiros em GRU em **2025**.
 
 ### 2. Premissas-Chave Utilizadas
@@ -124,27 +124,31 @@ Considerando um uso típico para atender 3 contratos corporativos:
 
 Tabela-resumo de custos variáveis:
 
-| Item                                      | Premissa / Observação                                      | Valor estimado (R$/mês) |
-| ----------------------------------------- | ---------------------------------------------------------- | ------------------------ |
-| Combustível                              | 4.000 km ÷ 8 km/l × R$ 6,50                                | **R$ 3.250**            |
+
+| Item                                     | Premissa / Observação                                        | Valor estimado (R$/mês) |
+| ---------------------------------------- | ------------------------------------------------------------ | ----------------------- |
+| Combustível                              | 4.000 km ÷ 8 km/l × R$ 6,50                                  | **R$ 3.250**            |
 | Pedágios e estacionamentos (não repass.) | Meses com aeroportos/eventos, parte não repassada ao cliente | **R$ 600**              |
-| Lavagem e higienização                   | 4 lavagens × R$ 80                                         | **R$ 320**              |
-| Taxas de meios de pagamento              | ~1,5% sobre R$ 19.500                                      | **R$ 300**              |
+| Lavagem e higienização                   | 4 lavagens × R$ 80                                           | **R$ 320**              |
+| Taxas de meios de pagamento              | ~1,5% sobre R$ 19.500                                        | **R$ 300**              |
+
 
 - **Total de custos variáveis estimados**: ~**R$ 4.470/mês**.
 
 #### 6.3. Premissas de despesas fixas operacionais
 
-| Item                        | Observação                              | Valor estimado (R$/mês) |
-| --------------------------- | ---------------------------------------- | ------------------------ |
-| Seguro do veículo           | Seguro total para carro executivo        | **R$ 400**              |
-| IPVA (mensalizado)         | IPVA anual dividido por 12               | **R$ 200**              |
-| Manutenção preventiva      | Provisão para revisões e pneus           | **R$ 500**              |
-| Contador / BPO fiscal      | Escritório de contabilidade              | **R$ 300**              |
-| Marketing                   | Site, anúncios, materiais, networking    | **R$ 400**              |
-| Telefonia / Internet       | Plano de dados e telefonia para o negócio| **R$ 150**              |
-| Ferramentas SaaS           | Agenda, CRM simples, emissão de NF etc.  | **R$ 150**              |
-| Outros fixos               | Pequenos gastos administrativos diversos | **R$ 200**              |
+
+| Item                  | Observação                                | Valor estimado (R$/mês) |
+| --------------------- | ----------------------------------------- | ----------------------- |
+| Seguro do veículo     | Seguro total para carro executivo         | **R$ 400**              |
+| IPVA (mensalizado)    | IPVA anual dividido por 12                | **R$ 200**              |
+| Manutenção preventiva | Provisão para revisões e pneus            | **R$ 500**              |
+| Contador / BPO fiscal | Escritório de contabilidade               | **R$ 300**              |
+| Marketing             | Site, anúncios, materiais, networking     | **R$ 400**              |
+| Telefonia / Internet  | Plano de dados e telefonia para o negócio | **R$ 150**              |
+| Ferramentas SaaS      | Agenda, CRM simples, emissão de NF etc.   | **R$ 150**              |
+| Outros fixos          | Pequenos gastos administrativos diversos  | **R$ 200**              |
+
 
 - **Total de despesas fixas operacionais (sem depreciação)**: ~**R$ 2.300/mês**.
 
@@ -197,7 +201,6 @@ Essas premissas serão usadas para construir:
 - **Ativo Circulante**
   - Caixa e equivalentes de caixa: **R$ 23.000**.
   - Contas a receber: **R$ 0** (assumindo que no mês 0 ainda não há faturas emitidas).
-
 - **Ativo Não Circulante**
   - Imobilizado – veículo (valor de custo): **R$ 140.000**.
   - (-) Depreciação acumulada: **R$ 0**.
@@ -205,17 +208,16 @@ Essas premissas serão usadas para construir:
 
 **Total do Ativo** = R$ 23.000 + R$ 140.000 = **R$ 163.000**.
 
-2. **Passivo**
+1. **Passivo**
 
 - **Passivo Circulante**
   - Empréstimos e financiamentos – curto prazo (12 meses): **R$ 27.500**.
-
 - **Passivo Não Circulante**
   - Empréstimos e financiamentos – longo prazo: **R$ 82.500**.
 
 **Total do Passivo** = R$ 27.500 + R$ 82.500 = **R$ 110.000**.
 
-3. **Patrimônio Líquido**
+1. **Patrimônio Líquido**
 
 - Capital social integralizado: **R$ 53.000**.
 - Lucros acumulados: **R$ 0** (nenhuma operação ainda no mês 0).
@@ -257,19 +259,21 @@ Premissas aplicadas:
 
 Tabela do DRE mensal estimado:
 
-| Linha                                          | Cálculo aproximado                            | Valor (R$/mês) |
-| --------------------------------------------- | ---------------------------------------------- | -------------- |
-| **Receita bruta**                             | —                                              | **19.500**     |
-| (-) Impostos sobre faturamento (~6%)         | 19.500 × 6%                                    | **(1.170)**    |
-| **Receita líquida**                           | 19.500 − 1.170                                 | **18.330**     |
-| (-) Custos variáveis                          | Ver seção 6.2                                  | **(4.470)**    |
-| **Margem de contribuição**                    | 18.330 − 4.470                                 | **13.860**     |
-| (-) Despesas fixas operacionais (sem deprec.) | Ver seção 6.3                                  | **(2.300)**    |
-| **Resultado antes da depreciação**            | 13.860 − 2.300                                 | **11.560**     |
-| (-) Depreciação do veículo                    | 140.000 ÷ 60                                   | **(2.333)**    |
-| **Resultado operacional**                     | 11.560 − 2.333                                 | **9.227**      |
-| (-) Despesas financeiras (juros)              | Estimativa média mensal de juros do CDC        | **(1.500)**    |
-| **Lucro líquido estimado**                    | 9.227 − 1.500                                  | **7.727**      |
+
+| Linha                                         | Cálculo aproximado                      | Valor (R$/mês) |
+| --------------------------------------------- | --------------------------------------- | -------------- |
+| **Receita bruta**                             | —                                       | **19.500**     |
+| (-) Impostos sobre faturamento (~6%)          | 19.500 × 6%                             | **(1.170)**    |
+| **Receita líquida**                           | 19.500 − 1.170                          | **18.330**     |
+| (-) Custos variáveis                          | Ver seção 6.2                           | **(4.470)**    |
+| **Margem de contribuição**                    | 18.330 − 4.470                          | **13.860**     |
+| (-) Despesas fixas operacionais (sem deprec.) | Ver seção 6.3                           | **(2.300)**    |
+| **Resultado antes da depreciação**            | 13.860 − 2.300                          | **11.560**     |
+| (-) Depreciação do veículo                    | 140.000 ÷ 60                            | **(2.333)**    |
+| **Resultado operacional**                     | 11.560 − 2.333                          | **9.227**      |
+| (-) Despesas financeiras (juros)              | Estimativa média mensal de juros do CDC | **(1.500)**    |
+| **Lucro líquido estimado**                    | 9.227 − 1.500                           | **7.727**      |
+
 
 > Ordem de grandeza: lucro líquido mensal projetado **≈ R$ 7.700** com 3 contratos corporativos na base de R$ 6.500 cada.
 
@@ -306,25 +310,25 @@ Esse DRE será a base para:
 - Aumento líquido de caixa no ano:
   - 120.400 − 27.500 ≈ **R$ 92.900**.
 
-2. **Caixa final após 12 meses**
+1. **Caixa final após 12 meses**
 
 - Caixa inicial (balanço do mês 0): **R$ 23.000**.  
 - Aumento projetado em 12 meses: **R$ 92.900**.  
 - Caixa final projetado: 23.000 + 92.900 = **R$ 115.900**.
 
-3. **Saldo de financiamento após 12 meses**
+1. **Saldo de financiamento após 12 meses**
 
 - Saldo inicial do financiamento: **R$ 110.000**.  
 - Amortização aproximada em 12 meses: **R$ 27.500**.  
 - Saldo final de financiamento: 110.000 − 27.500 = **R$ 82.500**.
 
-4. **Imobilizado e depreciação acumulada**
+1. **Imobilizado e depreciação acumulada**
 
 - Imobilizado – veículo (custo): **R$ 140.000**.  
 - Depreciação acumulada após 12 meses: **R$ 28.000**.  
 - Imobilizado líquido: 140.000 − 28.000 = **R$ 112.000**.
 
-5. **Patrimônio Líquido após 12 meses**
+1. **Patrimônio Líquido após 12 meses**
 
 - Capital social: **R$ 53.000**.  
 - Lucros acumulados (12 meses): **R$ 92.400**.  
@@ -337,7 +341,6 @@ Esse DRE será a base para:
 - **Ativo Circulante**
   - Caixa e equivalentes de caixa: **R$ 115.900**.
   - Contas a receber: **R$ 0** (simplificação).
-
 - **Ativo Não Circulante**
   - Imobilizado – veículo (custo): **R$ 140.000**.
   - (-) Depreciação acumulada: **R$ 28.000**.
@@ -345,17 +348,16 @@ Esse DRE será a base para:
 
 **Total do Ativo** = 115.900 + 112.000 = **R$ 227.900**.
 
-2. **Passivo**
+1. **Passivo**
 
 - **Passivo Circulante**
   - Empréstimos e financiamentos – curto prazo (12 meses seguintes): **R$ 27.500** (aprox., principal a vencer).
-
 - **Passivo Não Circulante**
   - Empréstimos e financiamentos – longo prazo (remanescente): **R$ 55.000**.
 
 **Total do Passivo** = 27.500 + 55.000 = **R$ 82.500**.
 
-3. **Patrimônio Líquido**
+1. **Patrimônio Líquido**
 
 - Capital social integralizado: **R$ 53.000**.
 - Lucros acumulados: **R$ 92.400**.
@@ -371,17 +373,19 @@ Verificação da equação contábil:
 
 Alguns parâmetros podem (e devem) ser ajustados ao longo do tempo para simular cenários diferentes. Resumo dos principais:
 
-| Parâmetro                            | Onde ajustar                             | Impacto principal                                         |
-| ------------------------------------ | ---------------------------------------- | --------------------------------------------------------- |
-| Número de contratos corporativos     | Seção 6.1 / DRE (seção 7)                | Aumenta/diminui diretamente a **receita bruta** e o lucro |
-| Ticket médio por contrato            | Seção 6.1 / DRE (seção 7)                | Afeta a receita e os impostos sobre faturamento          |
-| Quilometragem mensal                 | Seção 6.2                                | Aumenta/diminui **combustível** e manutenção              |
-| Preço do combustível                 | Seção 6.2                                | Impacta o custo variável por km                           |
-| Percentual de pedágio/estacionamento não repassado | Seção 6.2                    | Aumenta ou reduz o custo variável total                   |
-| Nível de marketing                   | Seção 6.3                                | Aumenta despesa fixa; potencialmente eleva receita futura |
-| Valor do veículo                     | Seção 6.4                                | Altera depreciação, imobilizado e necessidade de capital  |
-| Prazo e taxa do financiamento        | Seção 6.4                                | Afeta **juros (DRE)** e o **passivo** no balanço          |
-| Capital de giro alvo                 | Seção 6.5 / Balanço inicial (seção 8)    | Define quanto de caixa a empresa precisa para operar      |
+
+| Parâmetro                                          | Onde ajustar                          | Impacto principal                                         |
+| -------------------------------------------------- | ------------------------------------- | --------------------------------------------------------- |
+| Número de contratos corporativos                   | Seção 6.1 / DRE (seção 7)             | Aumenta/diminui diretamente a **receita bruta** e o lucro |
+| Ticket médio por contrato                          | Seção 6.1 / DRE (seção 7)             | Afeta a receita e os impostos sobre faturamento           |
+| Quilometragem mensal                               | Seção 6.2                             | Aumenta/diminui **combustível** e manutenção              |
+| Preço do combustível                               | Seção 6.2                             | Impacta o custo variável por km                           |
+| Percentual de pedágio/estacionamento não repassado | Seção 6.2                             | Aumenta ou reduz o custo variável total                   |
+| Nível de marketing                                 | Seção 6.3                             | Aumenta despesa fixa; potencialmente eleva receita futura |
+| Valor do veículo                                   | Seção 6.4                             | Altera depreciação, imobilizado e necessidade de capital  |
+| Prazo e taxa do financiamento                      | Seção 6.4                             | Afeta **juros (DRE)** e o **passivo** no balanço          |
+| Capital de giro alvo                               | Seção 6.5 / Balanço inicial (seção 8) | Define quanto de caixa a empresa precisa para operar      |
+
 
 Qualitativamente:
 
@@ -389,3 +393,4 @@ Qualitativamente:
 - **Mais km rodados ou combustível mais caro** → aumenta custos variáveis e reduz a margem de contribuição.  
 - **Financiamento mais longo ou juros mais altos** → reduz lucro líquido via aumento de despesa financeira e mantém passivo elevado por mais tempo.  
 - **Mais capital de giro** → aumenta segurança de caixa no balanço, mas exige mais aporte inicial dos sócios ou acumular lucros antes de distribuir.
+

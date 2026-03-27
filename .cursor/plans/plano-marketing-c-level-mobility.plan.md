@@ -23,9 +23,9 @@ isProject: false
 
 - **Modelo de negócio**: transporte executivo tipo *black car* focado em **B2B corporativo**, principalmente empresas, indústrias e hotéis na região de **Jundiaí / interior paulista**, com forte uso de transfers para aeroportos (GRU, CGH, VCP) e eventos corporativos.
 - **Atuais ativos e arquitetura**:
-  - Landing page já estruturada em `index.html` com foco em Jundiaí, frota enxuta (Toyota Yaris) e formulário de cotação integrado a **Google Apps Script + Google Sheets** (ver `[docs/INTEGRACAO-GOOGLE-SHEETS.md](docs/INTEGRACAO-GOOGLE-SHEETS.md)` e `[docs/SOLUCAO-PROFISSA-ENXUTA.md](docs/SOLUCAO-PROFISSA-ENXUTA.md)`).
-  - Fluxo operacional e de automação já pensado em `[negocio/plano-automacao.md](negocio/plano-automacao.md)`.
-  - Pesquisa de mercado e análise de concorrentes já mapeadas em `[negocio/requisitos.md](negocio/requisitos.md)` e `[negocio/estudo-concorrentes.md](negocio/estudo-concorrentes.md)`.
+  - Landing page já estruturada em `index.html` com foco em Jundiaí, frota enxuta (Toyota Yaris) e formulário de cotação integrado a **Google Apps Script + Google Sheets** (ver `[docs/integracao-google-sheets.md](docs/integracao-google-sheets.md)` e `[docs/solucao-profissa-enxuta.md](docs/solucao-profissa-enxuta.md)`).
+  - Fluxo operacional e de automação já pensado em `[negocio/vendas/plano-automacao.md](negocio/vendas/plano-automacao.md)`.
+  - Pesquisa de mercado e análise de concorrentes já mapeadas em `[negocio/mercado/requisitos.md](negocio/mercado/requisitos.md)` e `[negocio/mercado/estudo-concorrentes.md](negocio/mercado/estudo-concorrentes.md)`.
 - **Objetivo principal (0–3 meses)**: gerar **primeiros contratos e corridas pagas B2B** com empresas/indústrias/hotéis da região, usando a landing como eixo de confiança e o WhatsApp como canal de fechamento.
 - **Orçamento**: praticamente zero; priorizar **Google Business Profile**, SEO on-page, conteúdo enxuto, prospecção direta e automações grátis (Apps Script, Google Sheets, integrações simples).
 
@@ -47,7 +47,7 @@ isProject: false
   - **Pilar 1 – Presença digital mínima porém sólida**: landing multilíngue (pt/EN/ES) + Google Business Profile forte + página no LinkedIn.
   - **Pilar 2 – Autoridade local**: conteúdo pontual mas bem direcionado sobre rotas Jundiaí–aeroportos, atendimento a indústrias, hotéis e executivos, usando blog/MD no Git + publicação enxuta.
   - **Pilar 3 – Relacionamento com poucas contas-chave**: priorizar 5–10 empresas/hotéis-alvo e desenhar o funil quase 1:1 (visita + follow-up + acordo de testes + relatórios simples).
-  - **Pilar 4 – Automação como bastidor**: usar o fluxo de `[negocio/plano-automacao.md](negocio/plano-automacao.md)` para garantir resposta rápida e registro de todos os leads, com evoluções graduais.
+  - **Pilar 4 – Automação como bastidor**: usar o fluxo de `[negocio/vendas/plano-automacao.md](negocio/vendas/plano-automacao.md)` para garantir resposta rápida e registro de todos os leads, com evoluções graduais.
 
 ### 4. Funil de aquisição pensado para o marketing
 
@@ -74,7 +74,7 @@ flowchart LR
 
 - **Domínio e site no ar**
   - Garantir registro de domínio (mesmo que já exista, validar naming alinhado com o posicionamento).
-  - Publicar a landing `index.html` usando a arquitetura descrita em `[docs/SOLUCAO-PROFISSA-ENXUTA.md](docs/SOLUCAO-PROFISSA-ENXUTA.md)` (S3/CloudFront ou alternativa gratuita/mais barata temporária se necessário).
+  - Publicar a landing `index.html` usando a arquitetura descrita em `[docs/solucao-profissa-enxuta.md](docs/solucao-profissa-enxuta.md)` (S3/CloudFront ou alternativa gratuita/mais barata temporária se necessário).
 - **Google Business Profile (GBP)**
   - Criar/otimizar ficha **“C-Level Mobility – Transporte executivo em Jundiaí”** com:
     - Descrição coerente com os textos da landing (serviços, rotas principais, foco em empresas/hotéis).
@@ -116,7 +116,7 @@ flowchart LR
     - “Transporte executivo de Jundiaí para GRU/CGH/VCP”.
     - “Transporte executivo para hóspedes de hotéis em Jundiaí”.
     - “Serviço de motorista para indústrias do eixo Jundiaí–Campinas–São Paulo”.
-  - Cada texto curto (300–600 palavras), usando linguagem profissional e incorporando aprendizados de `[negocio/estudo-concorrentes.md](negocio/estudo-concorrentes.md)`.
+  - Cada texto curto (300–600 palavras), usando linguagem profissional e incorporando aprendizados de `[negocio/mercado/estudo-concorrentes.md](negocio/mercado/estudo-concorrentes.md)`.
 - **Ajustes de oferta com base em respostas reais**
   - Usar a planilha de leads (via Google Sheets) para registrar:
     - Origem do lead (GBP, e-mail direto, LinkedIn, indicação).
@@ -149,14 +149,14 @@ flowchart LR
 ### 7. Automação e ferramentas (sempre baixo custo)
 
 - **Curto prazo (já)**
-  - Usar o fluxo descrito em `[docs/INTEGRACAO-GOOGLE-SHEETS.md](docs/INTEGRACAO-GOOGLE-SHEETS.md)` para garantir que **todo lead cai em planilha + dispara e-mail de notificação**.
+  - Usar o fluxo descrito em `[docs/integracao-google-sheets.md](docs/integracao-google-sheets.md)` para garantir que **todo lead cai em planilha + dispara e-mail de notificação**.
   - Implementar (se ainda não estiver) respostas rápidas no **WhatsApp Business** para consultas comuns (preço base, áreas atendidas, como funciona o agendamento).
 - **Médio prazo (após alguns leads recorrentes)**
   - Adicionar automações simples com **Apps Script** ou ferramentas self-hosted como **n8n** (se fizer sentido e couber no orçamento de infra):
     - Novo lead na planilha → mensagem padrão de recebimento (e-mail/WhatsApp manualmente articulado a partir de um template).
     - Lead que não respondeu em X dias → criar lembrete em agenda ou lista de tarefas.
 - **Longo prazo**
-  - Evoluir para o nível descrito em `[docs/SOLUCAO-PROFISSA-ENXUTA.md](docs/SOLUCAO-PROFISSA-ENXUTA.md)` com API Gateway/Lambda apenas quando volume e necessidade de marcação de domínio justificarem.
+  - Evoluir para o nível descrito em `[docs/solucao-profissa-enxuta.md](docs/solucao-profissa-enxuta.md)` com API Gateway/Lambda apenas quando volume e necessidade de marcação de domínio justificarem.
 
 ### 8. Estrutura do arquivo de justificativas
 

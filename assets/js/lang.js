@@ -8,88 +8,123 @@
   const translations = {
     pt: {
       "brand.name": "C-Level Mobility",
-      "brand.tagline": "Transporte executivo em Jundiaí",
+      "brand.tagline": "Mobilidade executiva com disponibilidade programada",
       "nav.services": "Serviços",
       "nav.fleet": "Frota",
       "nav.business": "Para empresas",
       "nav.contact": "Contato",
-      "hero.kicker": "Transporte executivo • Jundiaí • Campinas • São Paulo",
+      "nav.cta": "WhatsApp",
+      "hero.kicker": "Disponibilidade • discrição • previsibilidade",
       "hero.title":
-        "C-Level Mobility: transporte executivo em Jundiaí com foco em transfers para aeroportos",
+        "Mobilidade executiva com disponibilidade programada para empresas e executivos",
       "hero.subtitle":
-        "Serviço sob medida para indústrias, hotéis e executivos de Jundiaí e região, em viagens de até 3 passageiros para aeroportos e eventos em Campinas e São Paulo.",
+        "Atendimento sob agenda em Jundiaí, Campinas e São Paulo para aeroportos, reuniões, eventos e rotinas corporativas recorrentes.",
       "hero.ctaPrimary": "Solicitar cotação",
       "hero.ctaSecondary": "Falar por WhatsApp",
       "hero.note":
-        "Motorista brasileiro com experiência em atendimento executivo, fluente em português, com inglês e espanhol básico para receber hóspedes e executivos internacionais.",
-      "hero.cardTitle": "Foco em conforto, segurança e pontualidade",
+        "Contato direto, comunicação objetiva e uma operação pensada para quem precisa de previsibilidade, boa apresentação e confiança no dia a dia.",
+      "hero.badge1Label": "Modelo",
+      "hero.badge1Title": "Sob agenda",
+      "hero.badge1Body":
+        "Reservas e alinhamentos feitos com antecedência, com menos ruído operacional.",
+      "hero.badge2Label": "Rotina",
+      "hero.badge2Title": "Recurso organizado",
+      "hero.badge2Body":
+        "Atendimento desenhado para compromissos estratégicos e demandas recorrentes.",
+      "hero.badge3Label": "Relação",
+      "hero.badge3Title": "Mais continuidade",
+      "hero.badge3Body":
+        "Planejamento melhor a cada atendimento, com mais contexto sobre a sua rotina.",
+      "hero.cardLabel": "Atendimento sob agenda",
+      "hero.cardTitle": "Disponibilidade que acompanha a sua agenda",
       "hero.cardBody":
-        "Viagens dedicadas para até 3 passageiros em sedan executivo Toyota Yaris 2023 XS prata/cinza, saindo de Jundiaí para aeroportos (GRU, CGH, VCP) e eventos corporativos na região.",
-      "hero.point1": "Traslados dedicados, sem paradas desnecessárias.",
-      "hero.point2": "Horário combinado com antecedência, pensado para rotinas corporativas.",
-      "hero.point3": "Comunicação clara por WhatsApp antes e depois de cada viagem.",
+        "Operação enxuta, atendimento direto e padrão executivo para transfers estratégicos, compromissos corporativos e demandas recorrentes.",
+      "hero.point1": "Veículo e motorista organizados conforme a sua agenda.",
+      "hero.point2":
+        "Mais previsibilidade para aeroportos, reuniões e janelas recorrentes.",
+      "hero.point3": "Contato rápido por WhatsApp e e-mail, sem intermediações.",
       "hero.cardFootnote":
-        "Atendemos Jundiaí, Campinas e São Paulo com o mesmo padrão de conforto, segurança e pontualidade.",
-      "services.title": "O que oferecemos para você",
+        "Jundiaí, Campinas e São Paulo com foco em rotina corporativa, convidados e agendas recorrentes.",
+      "services.title": "Como atendemos",
       "services.subtitle":
-        "Transfers para aeroportos e deslocamentos corporativos em Jundiaí, Campinas e São Paulo — sempre com horário combinado e comunicação clara.",
+        "Do transfer pontual à rotina recorrente, com atendimento organizado e padrão profissional.",
       "services.airports.title": "Transfers para aeroportos (GRU, CGH, VCP)",
       "services.airports.body":
-        "Viagens dedicadas entre Jundiaí e os principais aeroportos de São Paulo e Campinas, com planejamento de horário para chegadas e partidas de voos.",
-      "services.airports.item1": "Até 3 passageiros com bagagens, em veículo sedan executivo.",
-      "services.airports.item2": "Horário sugerido em função do aeroporto e do horário do voo.",
-      "services.airports.item3": "Comunicação prévia por WhatsApp para confirmação de detalhes.",
+        "Atendimento programado para embarques e desembarques com alinhamento prévio de voo, horário e janela.",
+      "services.airports.item1": "Atendimento dedicado para até 3 passageiros.",
+      "services.airports.item2": "Planejamento conforme voo, janela e rota.",
+      "services.airports.item3":
+        "Confirmação rápida dos detalhes antes da operação.",
       "services.airports.note":
-        "Ideal para executivos, convidados de empresas, hóspedes de hotéis e visitantes internacionais hospedados em Jundiaí.",
+        "Ideal para executivos, hóspedes e convidados em deslocamentos estratégicos.",
       "services.events.title": "Eventos e compromissos corporativos na região",
       "services.events.body":
-        "Deslocamentos para reuniões, visitas técnicas, jantares e eventos corporativos em Jundiaí, Campinas e São Paulo, mantendo a rotina do executivo organizada.",
-      "services.events.item1": "Roteiro combinado com antecedência, de acordo com sua agenda.",
-      "services.events.item2": "Embarque e desembarque em indústrias, hotéis e centros de eventos.",
-      "services.events.item3": "Possibilidade de múltiplas paradas dentro da mesma região.",
+        "Atendimento para reuniões, visitas, jantares e eventos com roteiro alinhado à agenda do cliente.",
+      "services.events.item1": "Roteiro alinhado à agenda do cliente.",
+      "services.events.item2": "Embarque em empresas, hotéis e centros de eventos.",
+      "services.events.item3":
+        "Flexibilidade para paradas estratégicas sob planejamento.",
       "services.events.note":
-        "Você conta com acompanhamento próximo e comunicação clara durante todo o deslocamento.",
-      "fleet.title": "Conforto e qualidade em cada viagem",
+        "Mais organização para agendas executivas e deslocamentos estratégicos.",
+      "services.recurring.title": "Rotinas corporativas recorrentes",
+      "services.recurring.body":
+        "Atendimento programado para agendas frequentes, com janela, franquia e prioridade definidas conforme a necessidade.",
+      "services.recurring.item1":
+        "Ideal para diretoria, hóspedes recorrentes e visitas técnicas.",
+      "services.recurring.item2":
+        "Planejamento com locais frequentes e horários recorrentes.",
+      "services.recurring.item3":
+        "Mais previsibilidade operacional e financeira para a empresa.",
+      "services.recurring.note":
+        "Mais alinhado para quem precisa de continuidade, não apenas de deslocamentos isolados.",
+      "fleet.title": "Padrão executivo",
       "fleet.subtitle":
-        "Sedan executivo Toyota Yaris 2023 XS prata/cinza, com espaço para até 3 passageiros em todas as rotas para aeroportos e eventos na região.",
-      "fleet.vehicleTitle": "Toyota Yaris 2023 XS prata/cinza – até 3 passageiros",
+        "Veículo sedan moderno, limpo e preparado para aeroportos, agendas corporativas e jornadas recorrentes.",
+      "fleet.vehicleTitle": "Toyota Yaris 2023 XS",
       "fleet.vehicleBody":
-        "Sedan moderno, confortável e adequado ao uso executivo diário, ideal para transfers entre Jundiaí e os principais aeroportos e polos empresariais da região.",
+        "Sedan executivo para compromissos estratégicos e rotinas corporativas com conforto, discrição e boa apresentação.",
       "fleet.detailPassengersLabel": "Capacidade de passageiros",
-      "fleet.detailPassengersValue": "Até 3 passageiros em viagens planejadas.",
+      "fleet.detailPassengersValue": "Até 3 passageiros com conforto.",
       "fleet.detailUsageLabel": "Uso principal",
       "fleet.detailUsageValue":
-        "Transfers para aeroportos e eventos corporativos na região.",
+        "Aeroportos, hotéis, reuniões, eventos e rotinas recorrentes.",
       "fleet.detailComfortLabel": "Conforto",
       "fleet.detailComfortValue":
-        "Climatização, ambiente limpo e discreto, pensado para conversas de trabalho ou descanso.",
+        "Climatização e ambiente discreto para trabalho ou descanso.",
       "fleet.detailLuggageLabel": "Bagagens",
       "fleet.detailLuggageValue":
-        "Adequado para bagagem típica de viagens de negócios de curto e médio prazo.",
-      "fleet.note": "Veículo sempre limpo e preparado para viagens executivas.",
-      "driver.title": "Motorista e atendimento",
+        "Espaço adequado para bagagens de viagens executivas.",
+      "fleet.note": "Imagem profissional e conforto em cada atendimento.",
+      "driver.title": "Atendimento que transmite confiança",
       "driver.body":
-        "Atendimento direto pelo motorista: comunicação clara, pontualidade e acompanhamento próximo em cada viagem.",
-      "driver.item1": "Motorista brasileiro residente na região de Jundiaí.",
+        "Contato direto com quem conduz a operação, garantindo agilidade, discrição e alinhamento em cada atendimento.",
+      "driver.item1": "Atendimento regional com conhecimento das principais rotas.",
       "driver.item2":
-        "Português fluente, inglês e espanhol em nível suficiente para interações básicas com hóspedes internacionais.",
+        "Comunicação em português, com suporte em inglês e espanhol básico.",
       "driver.item3":
-        "Comunicação preferencial por WhatsApp para confirmações e atualizações.",
-      "business.title": "Para empresas, indústrias e hotéis da região",
+        "Confirmações e atualizações com resposta rápida.",
+      "business.title":
+        "Por que empresas e hotéis escolhem a C-Level Mobility",
       "business.subtitle":
-        "Um padrão consistente de transporte executivo para sua empresa, seus convidados e hóspedes em Jundiaí e região.",
-      "business.benefit1Title": "Rotina previsível",
+        "Uma operação pensada para unir boa apresentação, previsibilidade de agenda e facilidade de coordenação.",
+      "business.benefit1Title": "Previsibilidade operacional",
       "business.benefit1Body":
-        "Horários combinados com antecedência, pensados para início e fim de turnos, reuniões e conexões em aeroportos.",
-      "business.benefit2Title": "Experiência do passageiro",
+        "Agenda organizada com antecedência para reduzir ruído, atraso e improviso.",
+      "business.benefit2Title": "Boa apresentação",
       "business.benefit2Body":
-        "Ambiente discreto e confortável para hóspedes, fornecedores e executivos convidados, com comunicação em inglês quando necessário.",
-      "business.benefit3Title": "Relacionamento contínuo",
+        "Atendimento compatível com executivos, hóspedes, fornecedores e convidados.",
+      "business.benefit3Title": "Mais continuidade",
       "business.benefit3Body":
-        "Ajustes de rota e horário conforme sua necessidade, com um único ponto de contato para todas as viagens.",
-      "contact.title": "Solicite uma cotação",
+        "Ajustes de rotina, locais frequentes e preferências operacionais ao longo do relacionamento.",
+      "business.panelLabel": "Rotina corporativa",
+      "business.panelTitle":
+        "Quando a agenda é importante, previsibilidade vira parte do serviço",
+      "business.panelBody":
+        "Ideal para empresas e hotéis que precisam de atendimento recorrente, bem apresentado e fácil de coordenar.",
+      "business.panelCta": "Solicitar proposta",
+      "contact.title": "Solicite uma proposta",
       "contact.subtitle":
-        "Envie os detalhes da sua próxima viagem para receber uma resposta personalizada para sua empresa, hotel ou necessidade executiva em Jundiaí e região.",
+        "Envie sua necessidade pontual ou recorrente e receba um retorno rápido com proposta alinhada à sua agenda.",
       "contact.legendClient": "Dados do contato",
       "contact.nameLabel": "Nome completo",
       "contact.companyLabel": "Empresa / hotel (opcional)",
@@ -104,85 +139,112 @@
       "contact.serviceTypeLabel": "Tipo de serviço",
       "contact.serviceTypeAirport": "Transfer aeroporto (GRU, CGH, VCP)",
       "contact.serviceTypeEvent": "Evento / compromisso corporativo na região",
+      "contact.serviceTypeRecurring": "Contrato mensal / rotina recorrente",
       "contact.notesLabel": "Observações adicionais (opcional)",
       "contact.submit": "Enviar solicitação",
       "contact.disclaimer":
-        "Ao enviar, você será contatado em breve para alinharmos os detalhes da sua viagem.",
-      "contact.sidebarTitle": "Como funciona",
+        "Após o envio, retornamos rapidamente para confirmar os detalhes da viagem.",
+      "contact.sidebarTitle": "Atendimento sob agenda",
       "contact.sidebarStep1":
-        "Você envia os detalhes da viagem pelo formulário ou WhatsApp.",
+        "Você envia os dados da demanda pontual ou da rotina recorrente.",
       "contact.sidebarStep2":
-        "Retornamos com uma proposta alinhada ao seu horário e à sua necessidade.",
+        "Retornamos com proposta alinhada ao roteiro, à janela e à frequência.",
       "contact.sidebarStep3":
-        "Após sua confirmação, o horário é reservado e os detalhes são confirmados antes do embarque.",
+        "Com a confirmação, organizamos o atendimento e validamos os detalhes.",
       "contact.sidebarNote":
-        "Resposta rápida e comunicação objetiva por WhatsApp ou e-mail.",
-      "footer.copy": "© C-Level Mobility. Transporte executivo em Jundiaí e região.",
+        "Processo objetivo para quem precisa de resposta rápida e coordenação confiável.",
+      "footer.copy":
+        "© C-Level Mobility. Mobilidade executiva com disponibilidade programada.",
       "footer.languages":
-        "Conteúdo disponível em português, inglês e espanhol básico.",
+        "Atendimento em português, inglês e espanhol básico.",
     },
     en: {
       "brand.name": "C-Level Mobility",
-      "brand.tagline": "Executive transport in Jundiaí",
+      "brand.tagline": "Executive mobility with scheduled availability",
       "nav.services": "Services",
       "nav.fleet": "Fleet",
       "nav.business": "For companies",
       "nav.contact": "Contact",
-      "hero.kicker": "Executive transport • Jundiaí • Campinas • São Paulo",
+      "nav.cta": "WhatsApp",
+      "hero.kicker": "Availability • discretion • predictability",
       "hero.title":
-        "C-Level Mobility: executive transport from Jundiaí with a focus on airport transfers",
+        "Executive mobility with scheduled availability for companies and executives",
       "hero.subtitle":
-        "Tailored service for industries, hotels and executives in Jundiaí and surroundings, on trips of up to 3 passengers to airports and events in Campinas and São Paulo.",
+        "Schedule-based service in Jundiaí, Campinas and São Paulo for airports, meetings, events and recurring corporate routines.",
       "hero.ctaPrimary": "Request a quote",
       "hero.ctaSecondary": "Chat on WhatsApp",
       "hero.note":
-        "Brazilian driver with experience in executive service, fluent in Portuguese, speaking English and basic Spanish to welcome international guests and executives.",
-      "hero.cardTitle": "Focus on comfort, safety and punctuality",
+        "Direct contact, clear communication and an operation designed for teams that need predictability, professional presentation and confidence day after day.",
+      "hero.badge1Label": "Model",
+      "hero.badge1Title": "Schedule-based",
+      "hero.badge1Body":
+        "Bookings and alignments handled in advance, with less operational noise.",
+      "hero.badge2Label": "Routine",
+      "hero.badge2Title": "Organized resource",
+      "hero.badge2Body":
+        "Service designed for strategic trips and recurring demands.",
+      "hero.badge3Label": "Relationship",
+      "hero.badge3Title": "More continuity",
+      "hero.badge3Body":
+        "Better planning over time, with more context about your routine.",
+      "hero.cardLabel": "Schedule-based service",
+      "hero.cardTitle": "Availability that follows your agenda",
       "hero.cardBody":
-        "Dedicated trips for up to 3 passengers in a Toyota Yaris 2023 XS silver/gray executive sedan, departing from Jundiaí to airports (GRU, CGH, VCP) and corporate events in the region.",
-      "hero.point1": "Dedicated transfers with no unnecessary stops.",
+        "Lean operation, direct communication and executive standard for strategic transfers, corporate appointments and recurring demands.",
+      "hero.point1": "Vehicle and driver organized around your agenda.",
       "hero.point2":
-        "Schedule agreed in advance, designed around corporate routines.",
+        "More predictability for airports, meetings and recurring time windows.",
       "hero.point3":
-        "Clear WhatsApp communication before and after each trip.",
+        "Fast WhatsApp and email contact, without intermediaries.",
       "hero.cardFootnote":
-        "We serve Jundiaí, Campinas and São Paulo with the same standard of comfort, safety and punctuality.",
-      "services.title": "What we offer you",
+        "Jundiaí, Campinas and São Paulo with a focus on corporate routines, guests and recurring agendas.",
+      "services.title": "How we support you",
       "services.subtitle":
-        "Airport transfers and corporate trips in Jundiaí, Campinas and São Paulo — always with a set schedule and clear communication.",
+        "From one-off transfers to recurring routines, with organized service and professional standards.",
       "services.airports.title": "Airport transfers (GRU, CGH, VCP)",
       "services.airports.body":
-        "Dedicated trips between Jundiaí and the main airports of São Paulo and Campinas, with timing planned for flight arrivals and departures.",
+        "Scheduled service for arrivals and departures, aligned in advance with flight, timing and window.",
       "services.airports.item1":
         "Up to 3 passengers with luggage, in an executive sedan.",
       "services.airports.item2":
-        "Suggested pickup time based on airport and flight schedule.",
+        "Planning based on flight, time window and route.",
       "services.airports.item3":
-        "Prior WhatsApp confirmation for key trip details.",
+        "Fast confirmation of the key details before the operation.",
       "services.airports.note":
-        "Ideal for executives, corporate guests, hotel guests and international visitors staying in Jundiaí.",
+        "Ideal for executives, guests and visitors in strategic trips.",
       "services.events.title": "Events and corporate appointments in the region",
       "services.events.body":
-        "Trips for meetings, technical visits, dinners and corporate events in Jundiaí, Campinas and São Paulo, keeping the executive's day organized.",
+        "Service for meetings, technical visits, dinners and events with the route aligned to the client's agenda.",
       "services.events.item1":
         "Route agreed in advance according to your schedule.",
       "services.events.item2":
         "Pick-up and drop-off at industries, hotels and event venues.",
       "services.events.item3":
-        "Possibility of multiple stops within the same region.",
+        "Flexibility for strategic stops under prior planning.",
       "services.events.note":
-        "You get close follow-up and clear communication throughout your trip.",
-      "fleet.title": "Comfort and quality on every trip",
+        "More organization for executive agendas and strategic trips.",
+      "services.recurring.title": "Recurring corporate routines",
+      "services.recurring.body":
+        "Planned service for frequent agendas, with window, allowance and priority defined around the client's needs.",
+      "services.recurring.item1":
+        "A strong fit for directors, recurring guests and technical visits.",
+      "services.recurring.item2":
+        "Planning around frequent places and recurring schedules.",
+      "services.recurring.item3":
+        "More operational and financial predictability for the company.",
+      "services.recurring.note":
+        "Best suited for teams that need continuity, not only isolated trips.",
+      "fleet.title": "Executive standard",
       "fleet.subtitle":
-        "Toyota Yaris 2023 XS silver/gray executive sedan, with room for up to 3 passengers on all routes to airports and events in the region.",
+        "Modern, clean executive sedan prepared for airports, corporate agendas and recurring routines.",
       "fleet.vehicleTitle": "Toyota Yaris 2023 XS silver/gray – up to 3 passengers",
       "fleet.vehicleBody":
-        "Modern, comfortable sedan suited to everyday executive use, ideal for transfers between Jundiaí and the main airports and business hubs in the region.",
+        "Executive sedan for strategic appointments and recurring corporate routines, with comfort, discretion and professional presentation.",
       "fleet.detailPassengersLabel": "Passenger capacity",
       "fleet.detailPassengersValue": "Up to 3 passengers on planned trips.",
       "fleet.detailUsageLabel": "Main use",
       "fleet.detailUsageValue":
-        "Airport transfers and corporate events in the region.",
+        "Airports, hotels, meetings, events and recurring routines.",
       "fleet.detailComfortLabel": "Comfort",
       "fleet.detailComfortValue":
         "Air conditioning, clean and discreet environment, suitable for work conversations or rest.",
@@ -190,30 +252,36 @@
       "fleet.detailLuggageValue":
         "Suitable for typical luggage on short and medium business trips.",
       "fleet.note":
-        "Vehicle always clean and ready for executive travel.",
-      "driver.title": "Driver and service",
+        "Professional image and comfort in every service.",
+      "driver.title": "Service that builds confidence",
       "driver.body":
-        "Direct contact with your driver: clear communication, punctuality and close follow-up on every trip.",
+        "Direct contact with the person running the operation, ensuring agility, discretion and alignment in every service.",
       "driver.item1": "Brazilian driver living in the Jundiaí area.",
       "driver.item2":
         "Fluent Portuguese, English and basic Spanish for simple interactions with international guests.",
       "driver.item3":
         "Preferred communication via WhatsApp for confirmations and updates.",
-      "business.title": "For companies, industries and hotels in the region",
+      "business.title": "Why companies and hotels choose C-Level Mobility",
       "business.subtitle":
-        "A consistent executive transport standard for your company, your guests and visitors in Jundiaí and the region.",
+        "An operation designed to combine professional presentation, schedule predictability and easy coordination.",
       "business.benefit1Title": "Predictable routine",
       "business.benefit1Body":
-        "Times agreed in advance, aligned with shifts, meetings and airport connections.",
-      "business.benefit2Title": "Passenger experience",
+        "Agenda organized in advance to reduce noise, delays and improvisation.",
+      "business.benefit2Title": "Professional presentation",
       "business.benefit2Body":
-        "Discreet, comfortable environment for guests, suppliers and invited executives, with English communication when needed.",
-      "business.benefit3Title": "Ongoing relationship",
+        "Service suited to executives, guests, suppliers and invited visitors.",
+      "business.benefit3Title": "More continuity",
       "business.benefit3Body":
-        "Route and schedule adjustments to fit your needs, with a single point of contact for all trips.",
+        "Routine adjustments, frequent places and operational preferences improve over time.",
+      "business.panelLabel": "Corporate routine",
+      "business.panelTitle":
+        "When the agenda matters, predictability becomes part of the service",
+      "business.panelBody":
+        "Ideal for companies and hotels that need recurring service, good presentation and easy coordination.",
+      "business.panelCta": "Request proposal",
       "contact.title": "Request a quote",
       "contact.subtitle":
-        "Send the details of your next trip to receive a tailored response for your company, hotel or executive need in Jundiaí and surroundings.",
+        "Send your one-off or recurring need and receive a fast response with a proposal aligned to your agenda.",
       "contact.legendClient": "Contact details",
       "contact.nameLabel": "Full name",
       "contact.companyLabel": "Company / hotel (optional)",
@@ -229,89 +297,115 @@
       "contact.serviceTypeAirport": "Airport transfer (GRU, CGH, VCP)",
       "contact.serviceTypeEvent":
         "Event / corporate appointment in the region",
+      "contact.serviceTypeRecurring": "Monthly contract / recurring routine",
       "contact.notesLabel": "Additional notes (optional)",
       "contact.submit": "Send request",
       "contact.disclaimer":
         "After you send, we will contact you shortly to align the details of your trip.",
-      "contact.sidebarTitle": "How it works",
+      "contact.sidebarTitle": "Schedule-based service",
       "contact.sidebarStep1":
-        "You send trip details through the form or WhatsApp.",
+        "You send the details of a one-off demand or a recurring routine.",
       "contact.sidebarStep2":
-        "We reply with a proposal that fits your schedule and needs.",
+        "We reply with a proposal aligned to route, time window and frequency.",
       "contact.sidebarStep3":
-        "Once you confirm, the time is reserved and we confirm details before pickup.",
+        "Once confirmed, we organize the service and validate the key details.",
       "contact.sidebarNote":
-        "Quick response and clear communication by WhatsApp or email.",
+        "An objective process for teams that need quick replies and reliable coordination.",
       "footer.copy":
-        "© C-Level Mobility. Executive transport in Jundiaí and region.",
+        "© C-Level Mobility. Executive mobility with scheduled availability.",
       "footer.languages":
         "Content available in Portuguese, English and basic Spanish.",
     },
     es: {
       "brand.name": "C-Level Mobility",
-      "brand.tagline": "Transporte ejecutivo en Jundiaí",
+      "brand.tagline": "Movilidad ejecutiva con disponibilidad programada",
       "nav.services": "Servicios",
       "nav.fleet": "Flota",
       "nav.business": "Para empresas",
       "nav.contact": "Contacto",
-      "hero.kicker": "Transporte ejecutivo • Jundiaí • Campinas • São Paulo",
+      "nav.cta": "WhatsApp",
+      "hero.kicker": "Disponibilidad • discreción • previsibilidad",
       "hero.title":
-        "C-Level Mobility: transporte ejecutivo desde Jundiaí con foco en traslados a aeropuertos",
+        "Movilidad ejecutiva con disponibilidad programada para empresas y ejecutivos",
       "hero.subtitle":
-        "Servicio a medida para industrias, hoteles y ejecutivos de Jundiaí y región, en viajes de hasta 3 pasajeros hacia aeropuertos y eventos en Campinas y São Paulo.",
+        "Servicio bajo agenda en Jundiaí, Campinas y São Paulo para aeropuertos, reuniones, eventos y rutinas corporativas recurrentes.",
       "hero.ctaPrimary": "Solicitar cotización",
       "hero.ctaSecondary": "Hablar por WhatsApp",
       "hero.note":
-        "Conductor brasileño con experiencia en atención ejecutiva, fluente en portugués, con inglés y español básico para recibir huéspedes y ejecutivos internacionales.",
+        "Contacto directo, comunicación clara y una operación pensada para quienes necesitan previsibilidad, buena presentación y confianza en el día a día.",
+      "hero.badge1Label": "Modelo",
+      "hero.badge1Title": "Bajo agenda",
+      "hero.badge1Body":
+        "Reservas y alineaciones hechas con antelación, con menos ruido operativo.",
+      "hero.badge2Label": "Rutina",
+      "hero.badge2Title": "Recurso organizado",
+      "hero.badge2Body":
+        "Atención diseñada para compromisos estratégicos y demandas recurrentes.",
+      "hero.badge3Label": "Relación",
+      "hero.badge3Title": "Más continuidad",
+      "hero.badge3Body":
+        "Mejor planificación con el tiempo, con más contexto sobre su rutina.",
+      "hero.cardLabel": "Atención bajo agenda",
       "hero.cardTitle":
-        "Enfoque en comodidad, seguridad y puntualidad",
+        "Disponibilidad que acompaña su agenda",
       "hero.cardBody":
-        "Viajes dedicados para hasta 3 pasajeros en sedán ejecutivo Toyota Yaris 2023 XS plateado/gris, saliendo de Jundiaí hacia aeropuertos (GRU, CGH, VCP) y eventos corporativos en la región.",
-      "hero.point1": "Traslados dedicados, sin paradas innecesarias.",
+        "Operación ágil, contacto directo y estándar ejecutivo para traslados estratégicos, compromisos corporativos y demandas recurrentes.",
+      "hero.point1": "Vehículo y conductor organizados según su agenda.",
       "hero.point2":
-        "Horario acordado con antelación, pensado para rutinas corporativas.",
+        "Más previsibilidad para aeropuertos, reuniones y franjas recurrentes.",
       "hero.point3":
-        "Comunicación clara por WhatsApp antes y después de cada viaje.",
+        "Contacto rápido por WhatsApp y correo, sin intermediarios.",
       "hero.cardFootnote":
-        "Atendemos Jundiaí, Campinas y São Paulo con el mismo estándar de comodidad, seguridad y puntualidad.",
-      "services.title": "Lo que ofrecemos para usted",
+        "Jundiaí, Campinas y São Paulo con foco en rutina corporativa, invitados y agendas recurrentes.",
+      "services.title": "Cómo atendemos",
       "services.subtitle":
-        "Traslados a aeropuertos y desplazamientos corporativos en Jundiaí, Campinas y São Paulo — siempre con horario acordado y comunicación clara.",
+        "Desde el traslado puntual hasta la rutina recurrente, con atención organizada y estándar profesional.",
       "services.airports.title": "Traslados a aeropuertos (GRU, CGH, VCP)",
       "services.airports.body":
-        "Viajes dedicados entre Jundiaí y los principales aeropuertos de São Paulo y Campinas, con horarios planificados para llegadas y salidas de vuelos.",
+        "Atención programada para llegadas y salidas con alineación previa de vuelo, horario y franja.",
       "services.airports.item1":
         "Hasta 3 pasajeros con equipaje, en vehículo sedán ejecutivo.",
       "services.airports.item2":
-        "Horario sugerido según el aeropuerto y el horario del vuelo.",
+        "Planificación según vuelo, franja horaria y ruta.",
       "services.airports.item3":
-        "Confirmación previa por WhatsApp para los detalles del viaje.",
+        "Confirmación rápida de los detalles antes de la operación.",
       "services.airports.note":
-        "Ideal para ejecutivos, invitados de empresas, huéspedes de hoteles y visitantes internacionales hospedados en Jundiaí.",
+        "Ideal para ejecutivos, huéspedes e invitados en desplazamientos estratégicos.",
       "services.events.title":
         "Eventos y compromisos corporativos en la región",
       "services.events.body":
-        "Desplazamientos para reuniones, visitas técnicas, cenas y eventos corporativos en Jundiaí, Campinas y São Paulo, manteniendo organizada la rutina del ejecutivo.",
+        "Atención para reuniones, visitas técnicas, cenas y eventos con ruta alineada a la agenda del cliente.",
       "services.events.item1":
         "Recorrido acordado con antelación, de acuerdo con su agenda.",
       "services.events.item2":
         "Embarque y desembarque en industrias, hoteles y centros de eventos.",
       "services.events.item3":
-        "Posibilidad de múltiples paradas dentro de la misma región.",
+        "Flexibilidad para paradas estratégicas bajo planificación.",
       "services.events.note":
-        "Usted cuenta con acompañamiento cercano y comunicación clara durante todo el desplazamiento.",
-      "fleet.title": "Comodidad y calidad en cada viaje",
+        "Más organización para agendas ejecutivas y desplazamientos estratégicos.",
+      "services.recurring.title": "Rutinas corporativas recurrentes",
+      "services.recurring.body":
+        "Atención programada para agendas frecuentes, con franja, franquicia y prioridad definidas según la necesidad.",
+      "services.recurring.item1":
+        "Adecuado para directorio, huéspedes recurrentes y visitas técnicas.",
+      "services.recurring.item2":
+        "Planificación con lugares frecuentes y horarios recurrentes.",
+      "services.recurring.item3":
+        "Más previsibilidad operativa y financiera para la empresa.",
+      "services.recurring.note":
+        "Más adecuado para quien necesita continuidad, no solo desplazamientos aislados.",
+      "fleet.title": "Estándar ejecutivo",
       "fleet.subtitle":
-        "Sedán ejecutivo Toyota Yaris 2023 XS plateado/gris, con espacio para hasta 3 pasajeros en todas las rutas hacia aeropuertos y eventos en la región.",
+        "Sedán ejecutivo moderno, limpio y preparado para aeropuertos, agendas corporativas y jornadas recurrentes.",
       "fleet.vehicleTitle":
         "Toyota Yaris 2023 XS plateado/gris – hasta 3 pasajeros",
       "fleet.vehicleBody":
-        "Sedán moderno, cómodo y adecuado para el uso ejecutivo diario, ideal para traslados entre Jundiaí y los principales aeropuertos y polos empresariales de la región.",
+        "Sedán ejecutivo para compromisos estratégicos y rutinas corporativas, con comodidad, discreción y buena presentación.",
       "fleet.detailPassengersLabel": "Capacidad de pasajeros",
       "fleet.detailPassengersValue": "Hasta 3 pasajeros en viajes planificados.",
       "fleet.detailUsageLabel": "Uso principal",
       "fleet.detailUsageValue":
-        "Traslados a aeropuertos y eventos corporativos en la región.",
+        "Aeropuertos, hoteles, reuniones, eventos y rutinas recurrentes.",
       "fleet.detailComfortLabel": "Comodidad",
       "fleet.detailComfortValue":
         "Climatización, ambiente limpio y discreto, pensado para conversaciones de trabajo o descanso.",
@@ -319,10 +413,10 @@
       "fleet.detailLuggageValue":
         "Adecuado para equipaje típico de viajes de negocios de corta y media duración.",
       "fleet.note":
-        "Vehículo siempre limpio y preparado para viajes ejecutivos.",
-      "driver.title": "Conductor y atención",
+        "Imagen profesional y comodidad en cada atención.",
+      "driver.title": "Atención que transmite confianza",
       "driver.body":
-        "Atención directa del conductor: comunicación clara, puntualidad y acompañamiento cercano en cada viaje.",
+        "Contacto directo con quien conduce la operación, garantizando agilidad, discreción y alineación en cada atención.",
       "driver.item1":
         "Conductor brasileño residente en la región de Jundiaí.",
       "driver.item2":
@@ -330,21 +424,27 @@
       "driver.item3":
         "Comunicación preferente por WhatsApp para confirmaciones y actualizaciones.",
       "business.title":
-        "Para empresas, industrias y hoteles de la región",
+        "Por qué empresas y hoteles eligen C-Level Mobility",
       "business.subtitle":
-        "Un estándar consistente de transporte ejecutivo para su empresa, sus invitados y huéspedes en Jundiaí y región.",
+        "Una operación pensada para unir buena presentación, previsibilidad de agenda y facilidad de coordinación.",
       "business.benefit1Title": "Rutina previsible",
       "business.benefit1Body":
-        "Horarios acordados con antelación, pensados para turnos, reuniones y conexiones en aeropuertos.",
-      "business.benefit2Title": "Experiencia del pasajero",
+        "Agenda organizada con antelación para reducir ruido, retrasos e improvisación.",
+      "business.benefit2Title": "Buena presentación",
       "business.benefit2Body":
-        "Ambiente discreto y cómodo para huéspedes, proveedores y ejecutivos invitados, con comunicación en inglés cuando sea necesario.",
-      "business.benefit3Title": "Relación continua",
+        "Atención compatible con ejecutivos, huéspedes, proveedores e invitados.",
+      "business.benefit3Title": "Más continuidad",
       "business.benefit3Body":
-        "Ajustes de ruta y horario según su necesidad, con un único punto de contacto para todos los viajes.",
-      "contact.title": "Solicite una cotización",
+        "Ajustes de rutina, lugares frecuentes y preferencias operativas a lo largo de la relación.",
+      "business.panelLabel": "Rutina corporativa",
+      "business.panelTitle":
+        "Cuando la agenda importa, la previsibilidad pasa a ser parte del servicio",
+      "business.panelBody":
+        "Ideal para empresas y hoteles que necesitan atención recurrente, buena presentación y coordinación sencilla.",
+      "business.panelCta": "Solicitar propuesta",
+      "contact.title": "Solicite una propuesta",
       "contact.subtitle":
-        "Envíe los detalles de su próximo viaje para recibir una respuesta personalizada para su empresa, hotel o necesidad ejecutiva en Jundiaí y región.",
+        "Envíe su necesidad puntual o recurrente y reciba una respuesta rápida con una propuesta alineada a su agenda.",
       "contact.legendClient": "Datos de contacto",
       "contact.nameLabel": "Nombre completo",
       "contact.companyLabel": "Empresa / hotel (opcional)",
@@ -360,21 +460,22 @@
       "contact.serviceTypeAirport": "Traslado a aeropuerto (GRU, CGH, VCP)",
       "contact.serviceTypeEvent":
         "Evento / compromiso corporativo en la región",
+      "contact.serviceTypeRecurring": "Contrato mensual / rutina recurrente",
       "contact.notesLabel": "Observaciones adicionales (opcional)",
       "contact.submit": "Enviar solicitud",
       "contact.disclaimer":
         "Al enviar, será contactado en breve para alinear los detalles de su viaje.",
-      "contact.sidebarTitle": "Cómo funciona",
+      "contact.sidebarTitle": "Atención bajo agenda",
       "contact.sidebarStep1":
-        "Usted envía los detalles del viaje por el formulario o por WhatsApp.",
+        "Usted envía los datos de la demanda puntual o de la rutina recurrente.",
       "contact.sidebarStep2":
-        "Respondemos con una propuesta alineada a su horario y a su necesidad.",
+        "Respondemos con una propuesta alineada a la ruta, la franja y la frecuencia.",
       "contact.sidebarStep3":
-        "Tras su confirmación, el horario se reserva y confirmamos los detalles antes del embarque.",
+        "Con su confirmación, organizamos la atención y validamos los detalles.",
       "contact.sidebarNote":
-        "Respuesta rápida y comunicación objetiva por WhatsApp o correo electrónico.",
+        "Proceso objetivo para quien necesita respuesta rápida y coordinación confiable.",
       "footer.copy":
-        "© C-Level Mobility. Transporte ejecutivo en Jundiaí y región.",
+        "© C-Level Mobility. Movilidad ejecutiva con disponibilidad programada.",
       "footer.languages":
         "Contenido disponible en portugués, inglés y español básico.",
     },

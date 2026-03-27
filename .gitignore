@@ -8,6 +8,8 @@ pnpm-lock.yaml
 *.log
 .DS_Store
 Thumbs.db
+*.Zone.Identifier
+*Zone.Identifier
 
 # IDE / Editor
 .vscode/
