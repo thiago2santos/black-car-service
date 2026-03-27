@@ -24,13 +24,17 @@ docker-data/
 # Core (se existir dentro do repo)
 wordpress/
 
-# Uploads (não versionar arquivos enviados)
+# Caminho canônico atual do site institucional
+4.canais/site-institucional/wordpress/wp-content/uploads/
+4.canais/site-institucional/wordpress/wp-content/plugins/
+4.canais/site-institucional/wordpress/wp-content/cache/
+4.canais/site-institucional/wordpress/wp-content/upgrade/
+4.canais/site-institucional/wordpress/wp-content/wflogs/
+4.canais/site-institucional/wordpress/wp-content/debug.log
+
+# Caminho legado ainda presente no filesystem
 wp-content/uploads/
-
-# Plugins baixados via painel (opcional: ajuste se usar plugins em código)
 wp-content/plugins/
-
-# Cache e arquivos gerados por plugins comuns
 wp-content/cache/
 wp-content/upgrade/
 wp-content/wflogs/

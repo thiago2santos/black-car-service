@@ -1,15 +1,15 @@
 ---
 name: plano-marketing-black-cars-service
-overview: Plano tático e estratégico de marketing digital e SEO, de baixo custo, para o serviço de transporte executivo C-Level Mobility focado em B2B corporativo na região de Jundiaí, aproveitando a arquitetura enxuta já desenhada (landing estática + Google Sheets/Apps Script).
+overview: Plano tático e estratégico de marketing digital e SEO, de baixo custo, para o serviço de transporte executivo C-Level Mobility focado em B2B corporativo na região de Jundiaí, aproveitando a arquitetura enxuta já desenhada (landing em WordPress + Google Sheets/Apps Script).
 todos:
   - id: criar-arquivo-plano-marketing
-    content: Criar o arquivo negocio/plano-marketing-digital-black-cars-service.md com o plano estratégico e tático completo de 12–24 meses e foco em 90 dias iniciais.
+    content: Criar o arquivo comercial/plano-marketing-digital-black-cars-service.md com o plano estratégico e tático completo de 12–24 meses e foco em 90 dias iniciais.
     status: pending
   - id: criar-arquivo-justificativas
-    content: Criar o arquivo negocio/plano-marketing-decisoes-explicadas.md detalhando as justificativas de cada escolha de canal, métrica e ferramenta.
+    content: Criar o arquivo comercial/plano-marketing-decisoes-explicadas.md detalhando as justificativas de cada escolha de canal, métrica e ferramenta.
     status: pending
   - id: alinhar-conteudo-com-index-html
-    content: Garantir que o conteúdo do plano esteja coerente com o posicionamento e textos já existentes em index.html (foco em Jundiaí, B2B corporativo, frota enxuta).
+    content: Garantir que o conteúdo do plano esteja coerente com o posicionamento e textos já existentes na landing WordPress (foco em Jundiaí, B2B corporativo, frota enxuta).
     status: pending
   - id: descrever-checklists-operacionais
     content: Incluir no plano tático checklists práticos (semana 1–2, 2–4, 4–8, 8–12) para execução sem orçamento de mídia paga.
@@ -23,19 +23,19 @@ isProject: false
 
 - **Modelo de negócio**: transporte executivo tipo *black car* focado em **B2B corporativo**, principalmente empresas, indústrias e hotéis na região de **Jundiaí / interior paulista**, com forte uso de transfers para aeroportos (GRU, CGH, VCP) e eventos corporativos.
 - **Atuais ativos e arquitetura**:
-  - Landing page já estruturada em `index.html` com foco em Jundiaí, frota enxuta (Toyota Yaris) e formulário de cotação integrado a **Google Apps Script + Google Sheets** (ver `[docs/integracao-google-sheets.md](docs/integracao-google-sheets.md)` e `[docs/solucao-profissa-enxuta.md](docs/solucao-profissa-enxuta.md)`).
-  - Fluxo operacional e de automação já pensado em `[negocio/vendas/plano-automacao.md](negocio/vendas/plano-automacao.md)`.
-  - Pesquisa de mercado e análise de concorrentes já mapeadas em `[negocio/mercado/requisitos.md](negocio/mercado/requisitos.md)` e `[negocio/mercado/estudo-concorrentes.md](negocio/mercado/estudo-concorrentes.md)`.
+  - Landing page já estruturada no tema WordPress `wp-content/themes/c-level-mobility-theme/`, com foco em Jundiaí, frota enxuta (Toyota Yaris) e formulário de cotação integrado a **Google Apps Script + Google Sheets** (ver `[docs/integracao-google-sheets.md](docs/integracao-google-sheets.md)` e `[docs/solucao-profissa-enxuta.md](docs/solucao-profissa-enxuta.md)`).
+  - Fluxo operacional e de automação já pensado em `[comercial/vendas/plano-automacao.md](comercial/vendas/plano-automacao.md)`.
+  - Pesquisa de mercado e análise de concorrentes já mapeadas em `[arquivo/soft-delete/2026-03-27/negocio/mercado/requisitos.md](arquivo/soft-delete/2026-03-27/negocio/mercado/requisitos.md)` e `[comercial/mercado/estudo-concorrentes.md](comercial/mercado/estudo-concorrentes.md)`.
 - **Objetivo principal (0–3 meses)**: gerar **primeiros contratos e corridas pagas B2B** com empresas/indústrias/hotéis da região, usando a landing como eixo de confiança e o WhatsApp como canal de fechamento.
 - **Orçamento**: praticamente zero; priorizar **Google Business Profile**, SEO on-page, conteúdo enxuto, prospecção direta e automações grátis (Apps Script, Google Sheets, integrações simples).
 
 ### 2. Arquivos a serem criados
 
 - **Plano tático e estratégico (entregável principal)**
-  - Arquivo: `[negocio/plano-marketing-digital-black-cars-service.md](negocio/plano-marketing-digital-black-cars-service.md)`.
+  - Arquivo: `[comercial/plano-marketing-digital-black-cars-service.md](comercial/plano-marketing-digital-black-cars-service.md)`.
   - Conteúdo: plano completo, com visão estratégica (12–24 meses) e plano tático de execução (90 dias), metas conservadoras e checklists.
 - **Justificativa das decisões**
-  - Arquivo: `[negocio/plano-marketing-decisoes-explicadas.md](negocio/plano-marketing-decisoes-explicadas.md)`.
+  - Arquivo: `[comercial/plano-marketing-decisoes-explicadas.md](comercial/plano-marketing-decisoes-explicadas.md)`.
   - Conteúdo: explicações detalhadas das escolhas de canais, prioridades, métricas, funil e ferramentas, sempre ligando com os documentos já existentes no projeto.
 
 ### 3. Visão estratégica (12–24 meses)
@@ -47,7 +47,7 @@ isProject: false
   - **Pilar 1 – Presença digital mínima porém sólida**: landing multilíngue (pt/EN/ES) + Google Business Profile forte + página no LinkedIn.
   - **Pilar 2 – Autoridade local**: conteúdo pontual mas bem direcionado sobre rotas Jundiaí–aeroportos, atendimento a indústrias, hotéis e executivos, usando blog/MD no Git + publicação enxuta.
   - **Pilar 3 – Relacionamento com poucas contas-chave**: priorizar 5–10 empresas/hotéis-alvo e desenhar o funil quase 1:1 (visita + follow-up + acordo de testes + relatórios simples).
-  - **Pilar 4 – Automação como bastidor**: usar o fluxo de `[negocio/vendas/plano-automacao.md](negocio/vendas/plano-automacao.md)` para garantir resposta rápida e registro de todos os leads, com evoluções graduais.
+  - **Pilar 4 – Automação como bastidor**: usar o fluxo de `[comercial/vendas/plano-automacao.md](comercial/vendas/plano-automacao.md)` para garantir resposta rápida e registro de todos os leads, com evoluções graduais.
 
 ### 4. Funil de aquisição pensado para o marketing
 
@@ -74,7 +74,7 @@ flowchart LR
 
 - **Domínio e site no ar**
   - Garantir registro de domínio (mesmo que já exista, validar naming alinhado com o posicionamento).
-  - Publicar a landing `index.html` usando a arquitetura descrita em `[docs/solucao-profissa-enxuta.md](docs/solucao-profissa-enxuta.md)` (S3/CloudFront ou alternativa gratuita/mais barata temporária se necessário).
+  - Publicar a home WordPress usando a arquitetura descrita em `[docs/solucao-profissa-enxuta.md](docs/solucao-profissa-enxuta.md)` e garantir que o tema customizado esteja coerente com o posicionamento.
 - **Google Business Profile (GBP)**
   - Criar/otimizar ficha **“C-Level Mobility – Transporte executivo em Jundiaí”** com:
     - Descrição coerente com os textos da landing (serviços, rotas principais, foco em empresas/hotéis).
@@ -83,7 +83,7 @@ flowchart LR
     - Link para o site (landing) e WhatsApp.
   - Planejar captação de **primeiras avaliações** (de corridas reais) com textos objetivos.
 - **Configurações técnicas mínimas de SEO no site**
-  - Conferir/ajustar no `index.html`:
+  - Conferir/ajustar na home do tema WordPress:
     - `title` e `meta description` já bem alinhados a **“transporte executivo em Jundiaí e região”** (já existe, só refinar se necessário).
     - Marcações de headings (`h1`, `h2`) coerentes com palavras-chave da região (transporte executivo Jundiaí, transfers para aeroportos, empresas e hotéis).
     - Links internos `#services`, `#fleet`, `#business`, `#contact` bem descritos (já estão, podem ser refinados com base no estudo de concorrentes).
@@ -112,11 +112,11 @@ flowchart LR
 #### 5.3. Semana 4–8 – Ajustes de mensagem e começo de conteúdo SEO
 
 - **Micro-conteúdos orientados a busca local**
-  - Criar seções/anchors (podem ser blocos de texto dentro do `index.html` ou em um futuro `/blog`) com foco em:
+  - Criar seções/anchors na home do tema ou em um futuro `/blog` com foco em:
     - “Transporte executivo de Jundiaí para GRU/CGH/VCP”.
     - “Transporte executivo para hóspedes de hotéis em Jundiaí”.
     - “Serviço de motorista para indústrias do eixo Jundiaí–Campinas–São Paulo”.
-  - Cada texto curto (300–600 palavras), usando linguagem profissional e incorporando aprendizados de `[negocio/mercado/estudo-concorrentes.md](negocio/mercado/estudo-concorrentes.md)`.
+  - Cada texto curto (300–600 palavras), usando linguagem profissional e incorporando aprendizados de `[comercial/mercado/estudo-concorrentes.md](comercial/mercado/estudo-concorrentes.md)`.
 - **Ajustes de oferta com base em respostas reais**
   - Usar a planilha de leads (via Google Sheets) para registrar:
     - Origem do lead (GBP, e-mail direto, LinkedIn, indicação).
@@ -160,7 +160,7 @@ flowchart LR
 
 ### 8. Estrutura do arquivo de justificativas
 
-- No arquivo `[negocio/plano-marketing-decisoes-explicadas.md](negocio/plano-marketing-decisoes-explicadas.md)`, a organização será:
+- No arquivo `[comercial/plano-marketing-decisoes-explicadas.md](comercial/plano-marketing-decisoes-explicadas.md)`, a organização será:
   - **Introdução**: resumo do contexto e dos objetivos.
   - **Por que B2B corporativo em Jundiaí/região**: ligação direta com pesquisa de mercado e estudo de concorrentes.
   - **Escolha de canais**: motivo de priorizar Google Business Profile, SEO local, LinkedIn e prospecção direta, deixando anúncios pagos para depois.
