@@ -267,17 +267,19 @@ Obrigatorio:
 
 ## 8. RACI simplificado
 
-| Processo | Direcao | RH | Operacao | Motorista | Apoio tecnico |
-| --- | --- | --- | --- | --- | --- |
-| Planejamento de quadro | A | R | C | I | C |
-| Recrutamento e selecao | A | R | C | I | I |
-| Admissao | A | R | C | C | C |
-| Onboarding | C | R | R | C | C |
-| Escalas e jornada | I | C | R | C | I |
-| Feedback e desempenho | C | R | R | C | I |
-| SST e exames | A | R | C | C | R |
-| Disciplina | A | R | R | C | C |
-| Rescisao | A | R | C | I | C |
+
+| Processo               | Direcao | RH  | Operacao | Motorista | Apoio tecnico |
+| ---------------------- | ------- | --- | -------- | --------- | ------------- |
+| Planejamento de quadro | A       | R   | C        | I         | C             |
+| Recrutamento e selecao | A       | R   | C        | I         | I             |
+| Admissao               | A       | R   | C        | C         | C             |
+| Onboarding             | C       | R   | R        | C         | C             |
+| Escalas e jornada      | I       | C   | R        | C         | I             |
+| Feedback e desempenho  | C       | R   | R        | C         | I             |
+| SST e exames           | A       | R   | C        | C         | R             |
+| Disciplina             | A       | R   | R        | C         | C             |
+| Rescisao               | A       | R   | C        | I         | C             |
+
 
 Legenda:
 
@@ -307,3 +309,4 @@ Este manual deve ser revisto:
 - sempre que houver mudanca legal relevante
 - quando a operacao mudar de porte, cidade ou regime de contratacao
 - apos acidente grave, passivo relevante ou falha material de processo
+

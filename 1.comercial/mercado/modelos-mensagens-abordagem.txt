@@ -1,0 +1,33 @@
+Para sua automação ser eficiente, você deve segmentar a mensagem pelo perfil da dor do cliente. O executivo que vai palestrar tem necessidades diferentes da equipe que está montando um estande de 200m².
+Aqui estão três modelos de abordagem para disparar via WhatsApp ou E-mail Marketing:
+## Modelo 1: Foco em Expositores e Montadoras (Gatilho: D-15 a D-7)
+Este perfil precisa de previsibilidade para a equipe técnica e diretores que chegam antes da abertura.
+
+"Olá, [Nome do Responsável/Empresa]! Vimos que vocês estarão na [Nome da Feira] no São Paulo Expo.
+Sabemos que a fase de montagem exige pontualidade total. Nossa frota executiva já está com agenda aberta para transfers entre [Aeroporto] e o pavilhão, garantindo que sua equipe chegue descansada e no horário.
+🚐 Frota disponível: Sedans Premium e Minivans (7 a 15 lugares).
+📍 Atendemos: GRU, CGH e VCP.
+Podemos reservar sua grade de horários para a semana do evento?"
+
+------------------------------
+## Modelo 2: Foco em Congressistas e VIPs (Gatilho: D-5 a D-2)
+Foco em conveniência, conforto e "fuga" do caos dos aplicativos de transporte na saída dos eventos.
+
+"Olá, [Nome]! Preparado para o [Nome do Congresso/Convenção] no Royal Palm Hall?
+Evite filas de espera e a instabilidade dos aplicativos na saída do evento. Oferecemos transporte executivo privativo com receptivo personalizado no desembarque e veículos com Wi-Fi e água.
+👔 Diferenciais: Motoristas bilíngues e monitoramento de voo em tempo real.
+Reserve seu transfer de ida e volta e foque apenas no seu networking. Qual o horário do seu pouso?"
+
+------------------------------
+## Modelo 3: Foco em Secretariado/Facilities (Gatilho: Fluxo Contínuo)
+Ideal para fechar parcerias com quem organiza a logística de grandes grupos em Jundiaí e Campinas.
+
+"Olá, [Nome], tudo bem?
+Sou da [Nome da sua Empresa] e somos especialistas em logística de transporte executivo para o eixo SP-Campinas-Jundiaí.
+Apoio departamentos de RH e Facilities na gestão de traslados para feiras como a Brasil LOG e convenções corporativas, com faturamento direto para empresas. Gostaria de receber nossa tabela de serviços para seus próximos eventos de 2026?
+Fico à disposição para uma cotação rápida!"
+
+## Dica de Ouro para sua Automação:
+Configure sua ferramenta para capturar o número do voo no formulário de reserva. Isso permite que sua frota se antecipe a atrasos da companhia aérea, um diferencial enorme no transporte executivo.
+Gostaria que eu listasse os canais onde você pode extrair os contatos (listas de expositores) para alimentar essa base de dados?
+

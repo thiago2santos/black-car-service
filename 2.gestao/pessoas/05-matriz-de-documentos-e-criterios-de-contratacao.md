@@ -16,21 +16,23 @@ Nenhum colaborador deve iniciar atividade operacional sem:
 
 ## 3. Matriz de documentos do motorista
 
-| Documento / validacao | Obrigatorio | Etapa | Criterio de aceite | Observacoes |
-| --- | --- | --- | --- | --- |
-| Documento de identidade | Sim | triagem documental | legivel e valido | guardar copia protegida |
-| CPF | Sim | triagem documental | regular | pode constar no RG ou documento equivalente |
-| Comprovante de endereco | Sim | triagem documental | atualizado | preferencia ate 90 dias |
-| Curriculo | Sim | triagem inicial | coerente com a vaga | registrar historico profissional |
-| CNH | Sim | triagem documental | valida e compativel | revisar vencimento e categoria |
-| EAR, quando aplicavel | Sim | triagem documental | constando quando exigido | alinhar ao enquadramento da funcao |
-| Comprovante de escolaridade, se exigido | Desejavel | pre-admissao | legivel | usar quando aplicavel |
-| Carteira de trabalho ou dados para registro | Sim | admissao | apto para cadastro | digital ou fisica conforme fluxo |
-| Dados bancarios | Sim | admissao | validos | para folha e reembolsos |
-| Certidoes ou referencias definidas pela empresa | Conforme politica | triagem / pre-admissao | sem impeditivo relevante | respeitar base legal e proporcionalidade |
-| Exame admissional / ASO | Sim | admissao | apto | sem isso, nao inicia |
-| Exame toxicologico, quando aplicavel | Condicional | admissao | conforme base legal | especialmente categorias C, D e E |
-| Foto / cadastro interno | Sim | admissao | concluido | para identificacao e sistemas |
+
+| Documento / validacao                           | Obrigatorio       | Etapa                  | Criterio de aceite       | Observacoes                                 |
+| ----------------------------------------------- | ----------------- | ---------------------- | ------------------------ | ------------------------------------------- |
+| Documento de identidade                         | Sim               | triagem documental     | legivel e valido         | guardar copia protegida                     |
+| CPF                                             | Sim               | triagem documental     | regular                  | pode constar no RG ou documento equivalente |
+| Comprovante de endereco                         | Sim               | triagem documental     | atualizado               | preferencia ate 90 dias                     |
+| Curriculo                                       | Sim               | triagem inicial        | coerente com a vaga      | registrar historico profissional            |
+| CNH                                             | Sim               | triagem documental     | valida e compativel      | revisar vencimento e categoria              |
+| EAR, quando aplicavel                           | Sim               | triagem documental     | constando quando exigido | alinhar ao enquadramento da funcao          |
+| Comprovante de escolaridade, se exigido         | Desejavel         | pre-admissao           | legivel                  | usar quando aplicavel                       |
+| Carteira de trabalho ou dados para registro     | Sim               | admissao               | apto para cadastro       | digital ou fisica conforme fluxo            |
+| Dados bancarios                                 | Sim               | admissao               | validos                  | para folha e reembolsos                     |
+| Certidoes ou referencias definidas pela empresa | Conforme politica | triagem / pre-admissao | sem impeditivo relevante | respeitar base legal e proporcionalidade    |
+| Exame admissional / ASO                         | Sim               | admissao               | apto                     | sem isso, nao inicia                        |
+| Exame toxicologico, quando aplicavel            | Condicional       | admissao               | conforme base legal      | especialmente categorias C, D e E           |
+| Foto / cadastro interno                         | Sim               | admissao               | concluido                | para identificacao e sistemas               |
+
 
 ## 4. Documentos internos obrigatorios na admissao
 
@@ -112,3 +114,4 @@ Nao contratar por urgencia operacional quando houver indicios claros de risco co
 
 - manter apenas o necessario pelo periodo interno definido
 - descartar de forma segura quando nao houver mais finalidade legitima
+
